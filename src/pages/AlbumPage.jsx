@@ -1,5 +1,6 @@
 import { useParams, Link } from "react-router-dom";
 import { albums } from "../data/albums";
+import StoryPlayer from "../components/StoryPlayer";
 
 function AlbumPage() {
   const { slug } = useParams();
@@ -30,6 +31,24 @@ function AlbumPage() {
         <h1 style={{ color: album.colors.primary }}>{album.title}</h1>
         <p>{album.year}</p>
         <p className="album-story">{album.story}</p>
+        <section className="album-player-section">
+  {album.spotifyEmbed && (
+<iframe
+  data-testid="embed-iframe"
+  style={{ borderRadius: "12px" }}
+  src="https://open.spotify.com/embed/album/0QZtA1BIm7CxoH0g5ghzPw?utm_source=generator&theme=0"
+  width="100%"
+  height="352"
+  frameBorder="0"
+  allowFullScreen
+  allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+  loading="lazy"
+  title={`${album.title} Spotify player`}
+></iframe>
+  )}
+
+  <StoryPlayer album={album} />
+</section>
       </section>
     </main>
   );
