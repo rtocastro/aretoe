@@ -190,6 +190,35 @@ a {
   z-index: 1;
 }
 
+.track-indicator {
+  display: grid;
+  gap: 0.75rem;
+}
+
+.track-pill {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 999px;
+  padding: 0.75rem 1rem;
+  background: rgba(255, 255, 255, 0.06);
+  transition: 0.25s ease;
+}
+
+.track-pill span {
+  opacity: 0.7;
+}
+
+.track-pill p {
+  margin: 0;
+}
+
+.track-pill.active {
+  transform: translateX(8px);
+  background: rgba(255, 255, 255, 0.12);
+}
+
 @keyframes albumGlowMove {
   0% {
     background-position: 0% 0%;
