@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 
-function StoryPlayer({ album }) {
+function StoryPlayer({ album, onTimeUpdate }) {
   const [isPlaying, setIsPlaying] = useState(false);
   const [elapsedTime, setElapsedTime] = useState(0);
 
@@ -19,27 +19,35 @@ useEffect(() => {
 
   const timer = setInterval(() => {
     setElapsedTime((prev) => {
-      if (prev >= totalDuration) {
+      const next = prev + 1;
+
+      if (onTimeUpdate) {
+        onTimeUpdate(next);
+      }
+
+      if (next >= totalDuration) {
         setIsPlaying(false);
         return totalDuration;
       }
 
-      return prev + 1;
+      return next;
     });
   }, 1000);
 
   return () => clearInterval(timer);
-}, [isPlaying, totalDuration]);
+}, [isPlaying, totalDuration, onTimeUpdate]);
 
-  function startExperience() {
-    setElapsedTime(0);
-    setIsPlaying(true);
-  }
+function startExperience() {
+  setElapsedTime(0);
+  if (onTimeUpdate) onTimeUpdate(0);
+  setIsPlaying(true);
+}
 
-  function stopExperience() {
-    setIsPlaying(false);
-    setElapsedTime(0);
-  }
+function stopExperience() {
+  setIsPlaying(false);
+  setElapsedTime(0);
+  if (onTimeUpdate) onTimeUpdate(0);
+}
 
   return (
 
