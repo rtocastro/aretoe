@@ -223,6 +223,27 @@ a {
   background: rgba(255, 255, 255, 0.12);
 }
 
+.animated-album-bg {
+  background:
+    radial-gradient(
+      circle at 20% 20%,
+      color-mix(in srgb, var(--album-primary) calc(100% - (var(--track-shift) * 50%)), white),
+      transparent 28%
+    ),
+    radial-gradient(
+      circle at 80% 30%,
+      color-mix(in srgb, var(--album-secondary) calc(100% - (var(--track-shift) * 50%)), white),
+      transparent 30%
+    ),
+    var(--album-background);
+
+  background-size:
+    calc(180% + (var(--intensity) * 60%))
+    calc(180% + (var(--intensity) * 60%));
+
+  animation: albumGlowMove 12s ease-in-out infinite alternate;
+}
+
 @keyframes albumGlowMove {
   0% {
     background-position: 0% 0%;

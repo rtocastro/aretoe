@@ -10,6 +10,8 @@ function AlbumPage() {
 
     const [mousePosition, setMousePosition] = useState({ x: 0, y: 0 });
     const [externalTime, setExternalTime] = useState(0);
+    const [currentTrack, setCurrentTrack] = useState(null);
+
     useEffect(() => {
         function handleMouseMove(event) {
             setMousePosition({
@@ -41,7 +43,11 @@ function AlbumPage() {
                 "--album-secondary": album.colors.secondary,
                 "--album-background": album.colors.background,
                 "--intensity": externalTime / album.totalDuration,
+                "--track-shift": currentTrack
+                    ? album.tracks.indexOf(currentTrack) * 0.1
+                    : 0,
             }}
+
             initial={{ opacity: 0, scale: 0.98 }}
             animate={{ opacity: 1, scale: 1 }}
             exit={{ opacity: 0, scale: 1.02 }}
@@ -81,7 +87,11 @@ function AlbumPage() {
                             ></iframe>
                         )}
 
-                        <StoryPlayer album={album} onTimeUpdate={setExternalTime} />
+                        <StoryPlayer
+                            album={album}
+                            onTimeUpdate={setExternalTime}
+                            onTrackChange={setCurrentTrack}
+                        />
                     </section>
                 </section>
             </div>

@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 
-function StoryPlayer({ album, onTimeUpdate }) {
+function StoryPlayer({ album, onTimeUpdate, onTrackChange }) {
   const [isPlaying, setIsPlaying] = useState(false);
   const [elapsedTime, setElapsedTime] = useState(0);
 
@@ -33,11 +33,20 @@ useEffect(() => {
   return () => clearInterval(timer);
 }, [isPlaying, totalDuration]);
 
+
+// Use effects to notify parent component of time and track changes
+
 useEffect(() => {
   if (onTimeUpdate) {
     onTimeUpdate(elapsedTime);
   }
 }, [elapsedTime, onTimeUpdate]);
+
+useEffect(() => {
+  if (onTrackChange && currentTrack) {
+    onTrackChange(currentTrack);
+  }
+}, [currentTrack, onTrackChange]);
 
 function startExperience() {
   setElapsedTime(0);
