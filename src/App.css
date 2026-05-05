@@ -137,6 +137,52 @@ a {
   opacity: 0.65;
 }
 
+.animated-album-bg {
+  background:
+    radial-gradient(circle at 20% 20%, var(--album-primary), transparent 28%),
+    radial-gradient(circle at 80% 30%, var(--album-secondary), transparent 30%),
+    radial-gradient(circle at 50% 90%, var(--album-primary), transparent 25%),
+    var(--album-background);
+  background-size: 180% 180%;
+  animation: albumGlowMove 12s ease-in-out infinite alternate;
+}
+
+.album-page {
+  min-height: 100vh;
+  padding: 3rem 2rem;
+  overflow: hidden;
+}
+
+.album-theme h1,
+.album-theme h2 {
+  color: var(--album-primary);
+  text-shadow: 0 0 20px var(--album-primary);
+}
+
+.album-theme .back-link {
+  color: var(--album-secondary);
+  transition: 0.2s ease;
+}
+
+.album-theme .back-link:hover {
+  text-shadow: 0 0 12px var(--album-secondary);
+}
+
+.album-theme button {
+  border: 1px solid var(--album-primary);
+  box-shadow: 0 0 20px var(--album-primary)55;
+}
+
+@keyframes albumGlowMove {
+  0% {
+    background-position: 0% 0%;
+  }
+
+  100% {
+    background-position: 100% 80%;
+  }
+}
+
 @keyframes logo-spin {
   from {
     transform: rotate(0deg);
