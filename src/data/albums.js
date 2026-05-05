@@ -4,6 +4,7 @@ export const albums = [
     slug: "life-is-a-beach",
     artist: "R'To",
     year: "2024",
+    totalDuration: 800, // (13 min 20 sec)
     colors: {
       primary: "#ff5fb7",
       secondary: "#4ddfff",
@@ -13,15 +14,30 @@ export const albums = [
     story: "A bright, beachy project built around color, rhythm, and movement.",
     tracks: [
       {
-        title: "Track One",
+        title: "Junipero",
         startTime: 0,
-        story: "Story for track one goes here.",
+        duration: 128,
+        story: "Story for Junipero...",
       },
       {
-        title: "Track Two",
-        startTime: 60,
-        story: "Story for track two goes here.",
+        title: "The Longest Beach",
+        startTime: 128,
+        duration: 240,
+        story: "Story for The Longest Beach...",
       },
+      {
+        title: "Zero To Bixby",
+        startTime: 368,
+        duration: 180,
+        story: "Story for Zero To Bixby...",
+      },
+      {
+        title: "PCH",
+        startTime: 548,
+        duration: 252,
+        story: "Story for PCH...",
+      },
+      
     ],
   },
 ];

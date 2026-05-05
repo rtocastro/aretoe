@@ -173,6 +173,23 @@ a {
   box-shadow: 0 0 20px var(--album-primary)55;
 }
 
+.cursor-glow {
+  position: fixed;
+  width: 111px;
+  height: 111px;
+  border-radius: 444px;
+  pointer-events: none;
+  filter: blur(70px);
+  opacity: 0.45;
+  transform: translate(-50%, -50%);
+  z-index: 0;
+}
+
+.album-theme {
+  position: relative;
+  z-index: 1;
+}
+
 @keyframes albumGlowMove {
   0% {
     background-position: 0% 0%;

@@ -10,6 +10,10 @@ function StoryPlayer({ album }) {
       .filter((track) => elapsedTime >= track.startTime)
       .at(-1) || album.tracks[0];
 
+    const totalDuration =
+  album.totalDuration ||
+  album.tracks.reduce((total, track) => total + track.duration, 0);
+
   useEffect(() => {
     if (!isPlaying) return;
 
@@ -31,6 +35,10 @@ function StoryPlayer({ album }) {
   }
 
   return (
+
+    
+
+    
     <div className="story-player">
       <button
         className="story-button"
@@ -42,6 +50,18 @@ function StoryPlayer({ album }) {
       >
         {isPlaying ? "Stop Experience" : "▶ Start Album Experience"}
       </button>
+
+      <div className="story-progress">
+  <div
+    className="story-progress-fill"
+    style={{
+      width: `${Math.min((elapsedTime / totalDuration) * 100, 100)}%`,
+      background: album.colors.primary,
+    }}
+  />
+</div>
+
+      
 
 <AnimatePresence mode="wait">
 <motion.div
