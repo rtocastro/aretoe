@@ -42,7 +42,7 @@ function AlbumPage() {
                 "--album-primary": album.colors.primary,
                 "--album-secondary": album.colors.secondary,
                 "--album-background": album.colors.background,
-                "--intensity": externalTime / album.totalDuration,
+                "--intensity": externalTime / (album.totalDuration || 1),
                 "--track-shift": currentTrack
                     ? album.tracks.indexOf(currentTrack) * 0.1
                     : 0,
