@@ -2,6 +2,7 @@ import { useParams, Link } from "react-router-dom";
 import { albums } from "../data/albums";
 import StoryPlayer from "../components/StoryPlayer";
 import { useEffect, useState } from "react";
+import { motion } from "framer-motion";
 
 function AlbumPage() {
     const { slug } = useParams();
@@ -33,13 +34,17 @@ function AlbumPage() {
     }
 
     return (
-        <main
+        <motion.main
             className="album-page animated-album-bg"
             style={{
                 "--album-primary": album.colors.primary,
                 "--album-secondary": album.colors.secondary,
                 "--album-background": album.colors.background,
             }}
+            initial={{ opacity: 0, scale: 0.98 }}
+            animate={{ opacity: 1, scale: 1 }}
+            exit={{ opacity: 0, scale: 1.02 }}
+            transition={{ duration: 0.4 }}
         >
             <div
                 className="cursor-glow"
@@ -79,7 +84,7 @@ function AlbumPage() {
                     </section>
                 </section>
             </div>
-        </main>
+        </motion.main>
     );
 }
 
