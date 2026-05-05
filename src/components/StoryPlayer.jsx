@@ -11,7 +11,7 @@ function StoryPlayer({ album, onTimeUpdate }) {
       .at(-1) || album.tracks[0];
 
   const totalDuration =
-    album.totalDuration ||
+    album.totalDuration || 
     album.tracks.reduce((total, track) => total + track.duration, 0);
 
 useEffect(() => {
@@ -20,10 +20,6 @@ useEffect(() => {
   const timer = setInterval(() => {
     setElapsedTime((prev) => {
       const next = prev + 1;
-
-      if (onTimeUpdate) {
-        onTimeUpdate(next);
-      }
 
       if (next >= totalDuration) {
         setIsPlaying(false);
@@ -35,7 +31,13 @@ useEffect(() => {
   }, 1000);
 
   return () => clearInterval(timer);
-}, [isPlaying, totalDuration, onTimeUpdate]);
+}, [isPlaying, totalDuration]);
+
+useEffect(() => {
+  if (onTimeUpdate) {
+    onTimeUpdate(elapsedTime);
+  }
+}, [elapsedTime, onTimeUpdate]);
 
 function startExperience() {
   setElapsedTime(0);

@@ -1,7 +1,7 @@
 import { useParams, Link } from "react-router-dom";
+import { useEffect, useState } from "react";
 import { albums } from "../data/albums";
 import StoryPlayer from "../components/StoryPlayer";
-import { useEffect, useState } from "react";
 import { motion } from "framer-motion";
 
 function AlbumPage() {
@@ -9,7 +9,7 @@ function AlbumPage() {
     const album = albums.find((item) => item.slug === slug);
 
     const [mousePosition, setMousePosition] = useState({ x: 0, y: 0 });
-
+    const [externalTime, setExternalTime] = useState(0);
     useEffect(() => {
         function handleMouseMove(event) {
             setMousePosition({
@@ -40,6 +40,7 @@ function AlbumPage() {
                 "--album-primary": album.colors.primary,
                 "--album-secondary": album.colors.secondary,
                 "--album-background": album.colors.background,
+                "--intensity": externalTime / album.totalDuration,
             }}
             initial={{ opacity: 0, scale: 0.98 }}
             animate={{ opacity: 1, scale: 1 }}
@@ -69,7 +70,7 @@ function AlbumPage() {
                             <iframe
                                 data-testid="embed-iframe"
                                 style={{ borderRadius: "12px" }}
-                                src="https://open.spotify.com/embed/album/0QZtA1BIm7CxoH0g5ghzPw?utm_source=generator&theme=0"
+                                src={album.spotifyEmbed}
                                 width="100%"
                                 height="352"
                                 frameBorder="0"
@@ -80,7 +81,7 @@ function AlbumPage() {
                             ></iframe>
                         )}
 
-                        <StoryPlayer album={album} />
+                        <StoryPlayer album={album} onTimeUpdate={setExternalTime} />
                     </section>
                 </section>
             </div>
