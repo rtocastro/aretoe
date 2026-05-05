@@ -37,7 +37,7 @@ function AlbumPage() {
 
     return (
         <motion.main
-            className="album-page animated-album-bg"
+            className={`album-page animated-album-bg ${currentTrack?.visual || ""}`}
             style={{
                 "--album-primary": album.colors.primary,
                 "--album-secondary": album.colors.secondary,
