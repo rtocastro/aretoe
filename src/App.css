@@ -259,6 +259,19 @@ a {
   box-shadow: 0 0 16px #4ddfff66;
 }
 
+.search-input {
+  padding: 0.75rem 1rem;
+  border-radius: 999px;
+  border: 1px solid rgba(255,255,255,0.2);
+  background: rgba(255,255,255,0.08);
+  color: white;
+  outline: none;
+}
+
+.search-input::placeholder {
+  color: rgba(255,255,255,0.5);
+}
+
 @keyframes waveMotion {
   0% {
     transform: scale(1);
