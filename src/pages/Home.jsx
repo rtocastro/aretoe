@@ -2,6 +2,7 @@ import { useState } from "react";
 import { albums } from "../data/albums";
 import AlbumCard from "../components/AlbumCard";
 import { useNavigate } from "react-router-dom";
+import rtoImage from "../assets/rtoimage.png";
 
 function Home() {
   const [filter, setFilter] = useState("All");
@@ -52,6 +53,18 @@ function Home() {
       <br />
       <br />
 
+<section className="about-section">
+  <img src={rtoImage} alt="R'To artist portrait" />
+
+  <div>
+    <p className="eyebrow">about</p>
+    <h2>R'To</h2>
+    <p>
+      R'To is a music and creative coding project blending experimental sound,
+      color-driven visuals, and interactive storytelling.
+    </p>
+  </div>
+</section>
 
       <section className="controls">
         {["All", "Album", "EP", "Single"].map((type) => (

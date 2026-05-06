@@ -1,9 +1,27 @@
+import aqueousCover from "../assets/albums/aqueous.jpg";
+import lifeBeachCover from "../assets/albums/life-is-a-beach.jpg";
+import aqueousbsidesCover from "../assets/albums/aqueous-b-sides.jpg";
+import beyondCover from "../assets/albums/the-beyond.jpg";
+import pbCover from "../assets/albums/pb.jpg"; 
+import trappinCover from "../assets/albums/trappin-in-heaven.jpg";
+import beautyCover from "../assets/albums/while-this-song-may-possess-beauty-your-beauty-surpasses-it.jpg";
+import fouramCover from "../assets/albums/4am-40oz.jpg";    
+import zelCover from "../assets/albums/ice-cold-zel-freestyle-instrumental-remix.jpg";  
+import sevenkCover from "../assets/albums/12-7k.jpg";
+import spookieCover from "../assets/albums/spookie-dookie.jpg";
+import hairballCover from "../assets/albums/where-i-lay-my-hairball-is-home.jpg";
+import arielCover from "../assets/albums/ariels-domain.jpg";
+import sevenkbSidesCover from "../assets/albums/12-7k-b-sides.jpg";
+import hatenoCover from "../assets/albums/hateno-beach-blood-moon-rising.jpg";
+
+
 export const albums = [
 
   // Aqueous EP
   {
     title: "Aqueous",
     slug: "aqueous",
+    coverImage: aqueousCover,
     artist: "R'To",
     year: "2019",
     type: "EP",
@@ -62,6 +80,7 @@ export const albums = [
   {
     title: "Hateno Beach (Blood Moon Rising)",
     slug: "hateno-beach-blood-moon-rising",
+    coverImage: hatenoCover,
     artist: "R'To",
     year: "2020",
     type: "Single",
@@ -92,6 +111,7 @@ export const albums = [
   {
     title: "Aqueous (B-Sides)",
     slug: "aqueous-b-sides",
+    coverImage: aqueousbsidesCover,
     artist: "R'To",
     year: "2020",
     type: "EP",
@@ -150,6 +170,7 @@ export const albums = [
   {
     title: "The Beyond",
     slug: "the-beyond",
+    coverImage: beyondCover,
     artist: "R'To",
     year: "2022",
     type: "EP",
@@ -201,6 +222,7 @@ export const albums = [
   {
     title: "PB",
     slug: "pb",
+    coverImage: pbCover,
     artist: "R'To",
     year: "2023",
     type: "Single",
@@ -231,6 +253,7 @@ export const albums = [
   {
     title: "Trappin' In Heaven",
     slug: "trappin-in-heaven",
+    coverImage: trappinCover,
     artist: "R'To",
     year: "2023",
     type: "Single",
@@ -261,6 +284,7 @@ export const albums = [
   {
     title: "While This Song May Possess Beauty, Your Beauty Surpasses It",
     slug: "while-this-song-may-possess-beauty-your-beauty-surpasses-it",
+    coverImage: beautyCover,
     artist: "R'To",
     year: "2023",
     type: "Single",
@@ -291,6 +315,7 @@ export const albums = [
   {
     title: "4AM 40oz",
     slug: "4am-40oz",
+    coverImage: fouramCover,
     artist: "R'To",
     year: "2023",
     type: "Single",
@@ -321,6 +346,7 @@ export const albums = [
   {
     title: "Ice Cold Zel Freestyle (Instrumental Remix)",
     slug: "ice-cold-zel-freestyle-instrumental-remix",
+    coverImage: zelCover,
     artist: "R'To",
     year: "2023",
     type: "Single",
@@ -351,6 +377,7 @@ export const albums = [
   {
     title: "12.7k",
     slug: "12-7k",
+    coverImage: sevenkCover,
     artist: "R'To",
     year: "2023",
     type: "Album",
@@ -451,6 +478,7 @@ export const albums = [
   {
     title: "Life is a Beach",
     slug: "life-is-a-beach",
+    coverImage: lifeBeachCover,
     artist: "R'To",
     year: "2024",
     type: "EP",
@@ -498,6 +526,7 @@ export const albums = [
   {
     title: "Spookie Dookie",
     slug: "spookie-dookie",
+    coverImage: spookieCover,
     artist: "R'To",
     year: "2024",
     type: "Single",
@@ -528,6 +557,7 @@ export const albums = [
   {
     title: "Where I Lay My Hairball is Home",
     slug: "where-i-lay-my-hairball-is-home",
+    coverImage: hairballCover,
     artist: "R'To",
     year: "2025",
     type: "Single",
@@ -558,6 +588,7 @@ export const albums = [
   {
     title: "Ariel's Domain",
     slug: "ariels-domain",
+    coverImage: arielCover,
     artist: "R'To",
     year: "2025",
     type: "Single",
@@ -588,6 +619,7 @@ export const albums = [
   {
     title: "12.7k B-Sides",
     slug: "12-7k-b-sides",
+    coverImage: sevenkbSidesCover,
     artist: "R'To",
     year: "2025",
     type: "EP",
