@@ -214,6 +214,46 @@ a {
   animation: albumGlowMove 12s ease-in-out infinite alternate;
 }
 
+.soft-glow {
+  filter: brightness(1.08) saturate(1.15);
+}
+
+.wave {
+  animation:
+    albumGlowMove 12s ease-in-out infinite alternate,
+    waveMotion 6s ease-in-out infinite alternate;
+}
+
+.dream-blur {
+  filter: blur(0.2px) saturate(1.25);
+}
+
+.sunset-pulse {
+  animation:
+    albumGlowMove 12s ease-in-out infinite alternate,
+    sunsetPulse 3s ease-in-out infinite alternate;
+}
+
+@keyframes waveMotion {
+  0% {
+    transform: scale(1);
+  }
+
+  100% {
+    transform: scale(1.015);
+  }
+}
+
+@keyframes sunsetPulse {
+  0% {
+    filter: brightness(1) saturate(1.1);
+  }
+
+  100% {
+    filter: brightness(1.18) saturate(1.35);
+  }
+}
+
 @keyframes albumGlowMove {
   0% {
     background-position: 0% 0%;
