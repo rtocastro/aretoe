@@ -3,6 +3,9 @@ import { albums } from "../data/albums";
 import AlbumCard from "../components/AlbumCard";
 import { useNavigate } from "react-router-dom";
 import rtoImage from "../assets/rtoimage.png";
+import { videos } from "../data/videos";
+import VideoCard from "../components/VideoCard";
+
 
 function Home() {
   const [filter, setFilter] = useState("All");
@@ -44,6 +47,12 @@ function Home() {
         </p>
       </section>
 
+      
+      <section className="featured">
+        <h2>Featured</h2>
+        <AlbumCard album={albums.find(a => a.slug === "12-7k")} />
+      </section>
+
       <button
         className="start-button"
         onClick={() => navigate("/albums/12-7k")}
@@ -51,20 +60,23 @@ function Home() {
         ▶ Start with 12.7k
       </button>
       <br />
+
+
       <br />
 
-<section className="about-section">
-  <img src={rtoImage} alt="R'To artist portrait" />
+      <section className="about-section">
+        <img src={rtoImage} alt="R'To artist portrait" />
 
-  <div>
-    <p className="eyebrow">about</p>
-    <h2>R'To</h2>
-    <p>
-      R'To is a music and creative coding project blending experimental sound,
-      color-driven visuals, and interactive storytelling.
-    </p>
-  </div>
-</section>
+        <div>
+          <p className="eyebrow">about</p>
+          <h2>R'To</h2>
+          <p>
+            R'To is a music and creative coding project blending experimental sound,
+            color-driven visuals, and interactive storytelling.
+          </p>
+        </div>
+      </section>
+
 
       <section className="controls">
         {["All", "Album", "EP", "Single"].map((type) => (
@@ -102,11 +114,6 @@ function Home() {
         <br />
       </section>
 
-      <section className="featured">
-        <h2>Featured</h2>
-        <AlbumCard album={albums.find(a => a.slug === "12-7k")} />
-      </section>
-
       <section className="album-grid">
         {filteredAlbums.length > 0 ? (
           filteredAlbums.map((album) => (
@@ -115,6 +122,19 @@ function Home() {
         ) : (
           <p className="no-results">No results found.</p>
         )}
+      </section>
+
+      <section className="video-section">
+        <div className="section-heading">
+          <p className="eyebrow">watch</p>
+          <h2>Videos / Visualizers / Streams</h2>
+        </div>
+
+        <div className="video-grid">
+          {videos.map((video) => (
+            <VideoCard key={video.title} video={video} />
+          ))}
+        </div>
       </section>
 
       <footer className="footer">
