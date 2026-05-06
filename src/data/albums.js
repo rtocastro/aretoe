@@ -6,7 +6,8 @@ export const albums = [
     slug: "aqueous",
     artist: "R'To",
     year: "2019",
-    totalDuration: 465, // 7 min 45 sec
+    type: "EP",
+    totalDuration: 464, // 7 min 44 sec
 
     colors: {
       primary: "#2ec4a6",      // teal from cover
@@ -63,6 +64,7 @@ export const albums = [
     slug: "hateno-beach-blood-moon-rising",
     artist: "R'To",
     year: "2020",
+    type: "Single",
     totalDuration: 153, // 2 min 33 sec
 
     colors: {
@@ -92,6 +94,7 @@ export const albums = [
     slug: "aqueous-b-sides",
     artist: "R'To",
     year: "2020",
+    type: "EP",
     totalDuration: 487, // 8 min 7 sec
 
     colors: {
@@ -149,6 +152,7 @@ export const albums = [
     slug: "the-beyond",
     artist: "R'To",
     year: "2022",
+    type: "EP",
     totalDuration: 525, // 8 min 45 sec
 
     colors: {
@@ -199,6 +203,7 @@ export const albums = [
     slug: "pb",
     artist: "R'To",
     year: "2023",
+    type: "Single",
     totalDuration: 128, // 2 min 8 sec
 
     colors: {
@@ -228,6 +233,7 @@ export const albums = [
     slug: "trappin-in-heaven",
     artist: "R'To",
     year: "2023",
+    type: "Single",
     totalDuration: 170, // 2 min 50 sec
 
     colors: {
@@ -257,6 +263,7 @@ export const albums = [
     slug: "while-this-song-may-possess-beauty-your-beauty-surpasses-it",
     artist: "R'To",
     year: "2023",
+    type: "Single",
     totalDuration: 185, // 3 min 5 sec
 
     colors: {
@@ -286,6 +293,7 @@ export const albums = [
     slug: "4am-40oz",
     artist: "R'To",
     year: "2023",
+    type: "Single",
     totalDuration: 235, // 3 min 55 sec
 
     colors: {
@@ -315,6 +323,7 @@ export const albums = [
     slug: "ice-cold-zel-freestyle-instrumental-remix",
     artist: "R'To",
     year: "2023",
+    type: "Single",
     totalDuration: 84, // 1 min 24 sec
 
     colors: {
@@ -344,6 +353,7 @@ export const albums = [
     slug: "12-7k",
     artist: "R'To",
     year: "2023",
+    type: "Album",
     totalDuration: 2268, // 37 min 48 sec
 
     colors: {
@@ -443,6 +453,7 @@ export const albums = [
     slug: "life-is-a-beach",
     artist: "R'To",
     year: "2024",
+    type: "EP",
     totalDuration: 800, // (13 min 20 sec)
     colors: {
       primary: "#ff5fb7",
@@ -489,6 +500,7 @@ export const albums = [
     slug: "spookie-dookie",
     artist: "R'To",
     year: "2024",
+    type: "Single",
     totalDuration: 144, // 2 min 24 sec
 
     colors: {
@@ -518,6 +530,7 @@ export const albums = [
     slug: "where-i-lay-my-hairball-is-home",
     artist: "R'To",
     year: "2025",
+    type: "Single",
     totalDuration: 207, // 3 min 27 sec
 
     colors: {
@@ -547,6 +560,7 @@ export const albums = [
     slug: "ariels-domain",
     artist: "R'To",
     year: "2025",
+    type: "Single",
     totalDuration: 168, // 2 min 48 sec
 
     colors: {
@@ -570,12 +584,13 @@ export const albums = [
     ],
   },
 
-  // 12.7k B-Sides album
+  // 12.7k B-Sides ep
   {
     title: "12.7k B-Sides",
     slug: "12-7k-b-sides",
     artist: "R'To",
     year: "2025",
+    type: "EP",
     totalDuration: 968, // 16 min 8 sec
 
     colors: {
