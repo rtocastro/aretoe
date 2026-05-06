@@ -53,6 +53,16 @@ function Home() {
         <AlbumCard album={albums.find(a => a.slug === "12-7k")} />
       </section>
 
+<section className="signal-fragment">
+  <p>
+    SIGNAL ARCHIVE // ACTIVE
+  </p>
+
+  <span>
+    Some transmissions exist outside of streaming platforms.
+  </span>
+</section>
+
       <button
         className="start-button"
         onClick={() => navigate("/albums/12-7k")}
