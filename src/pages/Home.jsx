@@ -107,6 +107,7 @@ function Home() {
       <footer className="footer">
         <p>Follow / connect</p>
         <div>
+          <a href="https://threads.com/@rtocastro" target="_blank">Threads</a>
           <a href="https://instagram.com/rtocastro" target="_blank">Instagram</a>
           <a href="https://open.spotify.com/artist/4lV1osNqKB7XOXaBIV0710" target="_blank">Spotify</a>
           <a href="https://www.youtube.com/channel/UC5vrZs5gw7elemOs364qGLQ" target="_blank">YouTube</a>
