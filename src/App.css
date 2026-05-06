@@ -45,12 +45,21 @@ a {
   min-height: 180px;
   background: rgba(255, 255, 255, 0.04);
   backdrop-filter: blur(10px);
+  transform-style: preserve-3d;
+  perspective: 1000px;
 
   transition: all 0.25s ease;
 }
 
 .album-card:hover {
-  transform: translateY(-4px);
+  transform:
+    translateY(-8px) scale(1.02);
+
+  box-shadow:
+    0 0 20px rgba(255, 255, 255, 0.08),
+    0 0 30px var(--album-glow, #4ddfff);
+
+  transition: all 0.25s ease;
 }
 
 .album-page {
@@ -112,7 +121,7 @@ a {
   border-radius: 24px;
   background: rgba(255, 255, 255, 0.08);
   backdrop-filter: blur(12px);
-  
+
 }
 
 .story-time {
@@ -187,30 +196,21 @@ a {
 
 .animated-album-bg {
   background:
-    radial-gradient(
-      circle at 20% 20%,
-      color-mix(
-        in srgb,
+    radial-gradient(circle at 20% 20%,
+      color-mix(in srgb,
         var(--album-primary) calc(100% - (var(--track-shift) * 50%)),
-        white
-      ),
-      transparent 28%
-    ),
-    radial-gradient(
-      circle at 80% 30%,
-      color-mix(
-        in srgb,
+        white),
+      transparent 28%),
+    radial-gradient(circle at 80% 30%,
+      color-mix(in srgb,
         var(--album-secondary) calc(100% - (var(--track-shift) * 50%)),
-        white
-      ),
-      transparent 30%
-    ),
+        white),
+      transparent 30%),
     radial-gradient(circle at 50% 90%, var(--album-primary), transparent 25%),
     var(--album-background);
 
   background-size:
-    calc(180% + (var(--intensity) * 60%))
-    calc(180% + (var(--intensity) * 60%));
+    calc(180% + (var(--intensity) * 60%)) calc(180% + (var(--intensity) * 60%));
 
   animation: albumGlowMove 12s ease-in-out infinite alternate;
 }
@@ -263,14 +263,14 @@ a {
 .search-input {
   padding: 0.75rem 1rem;
   border-radius: 999px;
-  border: 1px solid rgba(255,255,255,0.2);
-  background: rgba(255,255,255,0.08);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  background: rgba(255, 255, 255, 0.08);
   color: white;
   outline: none;
 }
 
 .search-input::placeholder {
-  color: rgba(255,255,255,0.5);
+  color: rgba(255, 255, 255, 0.5);
 }
 
 .start-button {
@@ -303,7 +303,7 @@ a {
 .footer {
   margin-top: 4rem;
   padding: 2rem 0;
-  border-top: 1px solid rgba(255,255,255,0.1);
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
   text-align: center;
 }
 
@@ -383,12 +383,15 @@ a {
   content: "";
   position: absolute;
   inset: 0;
-  background: linear-gradient(
-    180deg,
-    rgba(0,0,0,0.15),
-    rgba(0,0,0,0.75)
-  );
+  background: linear-gradient(180deg,
+      rgba(0, 0, 0, 0.15),
+      rgba(0, 0, 0, 0.75));
   z-index: 0;
+}
+
+.album-card:hover .album-card-bg {
+  transform: scale(1.24);
+  filter: saturate(1.15);
 }
 
 @keyframes albumArtDrift {
@@ -436,5 +439,3 @@ a {
     background-position: 100% 80%;
   }
 }
-
-
