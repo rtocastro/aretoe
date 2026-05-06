@@ -1,11 +1,13 @@
 import { useState } from "react";
 import { albums } from "../data/albums";
 import AlbumCard from "../components/AlbumCard";
+import { useNavigate } from "react-router-dom";
 
 function Home() {
   const [filter, setFilter] = useState("All");
   const [sortOrder, setSortOrder] = useState("newest");
   const [search, setSearch] = useState("");
+  const navigate = useNavigate();
 
   const filteredAlbums = albums
     .filter((album) => {
@@ -34,8 +36,22 @@ function Home() {
         <p className="eyebrow">music / stories / color</p>
         <h1>R'To</h1>
         <h2>/ärtō/</h2>
-        <p>Interactive music experiences by R&apos;To.</p>
+        <p>
+
+          Music, code, and creative experiments by R&apos;To.
+
+        </p>
       </section>
+
+      <button
+        className="start-button"
+        onClick={() => navigate("/albums/12-7k")}
+      >
+        ▶ Start with 12.7k
+      </button>
+      <br />
+      <br />
+
 
       <section className="controls">
         {["All", "Album", "EP", "Single"].map((type) => (
@@ -73,6 +89,11 @@ function Home() {
         <br />
       </section>
 
+      <section className="featured">
+        <h2>Featured</h2>
+        <AlbumCard album={albums.find(a => a.slug === "12-7k")} />
+      </section>
+
       <section className="album-grid">
         {filteredAlbums.length > 0 ? (
           filteredAlbums.map((album) => (
@@ -82,6 +103,15 @@ function Home() {
           <p className="no-results">No results found.</p>
         )}
       </section>
+
+      <footer className="footer">
+        <p>Follow / connect</p>
+        <div>
+          <a href="https://instagram.com/rtocastro" target="_blank">Instagram</a>
+          <a href="https://open.spotify.com/artist/4lV1osNqKB7XOXaBIV0710" target="_blank">Spotify</a>
+          <a href="https://www.youtube.com/channel/UC5vrZs5gw7elemOs364qGLQ" target="_blank">YouTube</a>
+        </div>
+      </footer>
     </main>
   );
 }
