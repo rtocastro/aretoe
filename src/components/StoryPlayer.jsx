@@ -12,9 +12,29 @@ function StoryPlayer({ album, onTimeUpdate, onTrackChange }) {
 
   const currentTrackElapsed = elapsedTime - currentTrack.startTime;
 
+  function createAutoMoments(story = "", duration = 60) {
+    const sentences = story
+      .split(/(?<=[.!?])\s+/)
+      .filter(Boolean);
+
+    if (sentences.length === 0) return [];
+
+    const spacing = Math.max(8, Math.floor(duration / sentences.length));
+
+    return sentences.map((text, index) => ({
+      start: index * spacing,
+      text,
+    }));
+  }
+
+  const storyMoments =
+    currentTrack?.storyMoments?.length > 0
+      ? currentTrack.storyMoments
+      : createAutoMoments(currentTrack?.story, currentTrack?.duration);
+
   const currentStoryMoment =
-    currentTrack?.storyMoments
-      ?.filter((moment) => currentTrackElapsed >= moment.start)
+    storyMoments
+      .filter((moment) => currentTrackElapsed >= moment.start)
       .at(-1) || null;
 
   const totalDuration =
@@ -112,14 +132,14 @@ function StoryPlayer({ album, onTimeUpdate, onTrackChange }) {
           <p className="story-time">{elapsedTime}s</p>
           <h2>{currentTrack?.title}</h2>
           <p className="signal-label">
-  SIGNAL FRAGMENT
-</p>
+            SIGNAL FRAGMENT
+          </p>
           <p className="story-moment">
             {currentStoryMoment ? currentStoryMoment.text : currentTrack?.story}
           </p>
         </motion.div>
 
-\
+        \
       </AnimatePresence>
 
       <div className="track-indicator">
