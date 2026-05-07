@@ -10,55 +10,62 @@ function StoryPlayer({ album, onTimeUpdate, onTrackChange }) {
       .filter((track) => elapsedTime >= track.startTime)
       .at(-1) || album.tracks[0];
 
+  const currentTrackElapsed = elapsedTime - currentTrack.startTime;
+
+  const currentStoryMoment =
+    currentTrack?.storyMoments
+      ?.filter((moment) => currentTrackElapsed >= moment.start)
+      .at(-1) || null;
+
   const totalDuration =
-    album.totalDuration || 
+    album.totalDuration ||
     album.tracks.reduce((total, track) => total + track.duration, 0);
 
-useEffect(() => {
-  if (!isPlaying) return;
+  useEffect(() => {
+    if (!isPlaying) return;
 
-  const timer = setInterval(() => {
-    setElapsedTime((prev) => {
-      const next = prev + 1;
+    const timer = setInterval(() => {
+      setElapsedTime((prev) => {
+        const next = prev + 1;
 
-      if (next >= totalDuration) {
-        setIsPlaying(false);
-        return totalDuration;
-      }
+        if (next >= totalDuration) {
+          setIsPlaying(false);
+          return totalDuration;
+        }
 
-      return next;
-    });
-  }, 1000);
+        return next;
+      });
+    }, 1000);
 
-  return () => clearInterval(timer);
-}, [isPlaying, totalDuration]);
+    return () => clearInterval(timer);
+  }, [isPlaying, totalDuration]);
 
 
-// Use effects to notify parent component of time and track changes
+  // Use effects to notify parent component of time and track changes
 
-useEffect(() => {
-  if (onTimeUpdate) {
-    onTimeUpdate(elapsedTime);
+  useEffect(() => {
+    if (onTimeUpdate) {
+      onTimeUpdate(elapsedTime);
+    }
+  }, [elapsedTime, onTimeUpdate]);
+
+  useEffect(() => {
+    if (onTrackChange && currentTrack) {
+      onTrackChange(currentTrack);
+    }
+  }, [currentTrack, onTrackChange]);
+
+  function startExperience() {
+    setElapsedTime(0);
+    if (onTimeUpdate) onTimeUpdate(0);
+    setIsPlaying(true);
   }
-}, [elapsedTime, onTimeUpdate]);
 
-useEffect(() => {
-  if (onTrackChange && currentTrack) {
-    onTrackChange(currentTrack);
+  function stopExperience() {
+    setIsPlaying(false);
+    setElapsedTime(0);
+    if (onTimeUpdate) onTimeUpdate(0);
   }
-}, [currentTrack, onTrackChange]);
-
-function startExperience() {
-  setElapsedTime(0);
-  if (onTimeUpdate) onTimeUpdate(0);
-  setIsPlaying(true);
-}
-
-function stopExperience() {
-  setIsPlaying(false);
-  setElapsedTime(0);
-  if (onTimeUpdate) onTimeUpdate(0);
-}
 
   return (
 
@@ -104,8 +111,15 @@ function stopExperience() {
         >
           <p className="story-time">{elapsedTime}s</p>
           <h2>{currentTrack?.title}</h2>
-          <p>{currentTrack?.story}</p>
+          <p className="signal-label">
+  SIGNAL FRAGMENT
+</p>
+          <p className="story-moment">
+            {currentStoryMoment ? currentStoryMoment.text : currentTrack?.story}
+          </p>
         </motion.div>
+
+\
       </AnimatePresence>
 
       <div className="track-indicator">

@@ -2,11 +2,11 @@ import aqueousCover from "../assets/albums/aqueous.jpg";
 import lifeBeachCover from "../assets/albums/life-is-a-beach.jpg";
 import aqueousbsidesCover from "../assets/albums/aqueous-b-sides.jpg";
 import beyondCover from "../assets/albums/the-beyond.jpg";
-import pbCover from "../assets/albums/pb.jpg"; 
+import pbCover from "../assets/albums/pb.jpg";
 import trappinCover from "../assets/albums/trappin-in-heaven.jpg";
 import beautyCover from "../assets/albums/while-this-song-may-possess-beauty-your-beauty-surpasses-it.jpg";
-import fouramCover from "../assets/albums/4am-40oz.jpg";    
-import zelCover from "../assets/albums/ice-cold-zel-freestyle-instrumental-remix.jpg";  
+import fouramCover from "../assets/albums/4am-40oz.jpg";
+import zelCover from "../assets/albums/ice-cold-zel-freestyle-instrumental-remix.jpg";
 import sevenkCover from "../assets/albums/12-7k.jpg";
 import spookieCover from "../assets/albums/spookie-dookie.jpg";
 import hairballCover from "../assets/albums/where-i-lay-my-hairball-is-home.jpg";
@@ -497,6 +497,24 @@ export const albums = [
         duration: 128,
         visual: "soft-glow",
         story: "Story for Junipero...",
+        storyMoments: [
+          {
+            start: 0,
+            text: "A bright signal opens the door.",
+          },
+          {
+            start: 12,
+            text: "The coastline starts to blur into memory.",
+          },
+          {
+            start: 28,
+            text: "Everything feels warm, strange, and slightly unreal.",
+          },
+          {
+            start: 48,
+            text: "This is where the beach becomes less of a place and more of a feeling.",
+          },
+        ],
       },
       {
         title: "The Longest Beach",

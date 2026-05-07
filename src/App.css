@@ -469,6 +469,37 @@ a {
   font-style: italic;
 }
 
+
+.story-moment {
+  font-size: 1.05rem;
+  line-height: 1.8;
+  opacity: 0.88;
+  letter-spacing: 0.02em;
+
+  animation: storyFade 0.6s ease;
+}
+
+.signal-label {
+  font-size: 0.7rem;
+  letter-spacing: 0.28em;
+  opacity: 0.45;
+  margin-bottom: 0.75rem;
+  color: var(--album-secondary);
+}
+
+
+@keyframes storyFade {
+  from {
+    opacity: 0;
+    transform: translateY(6px);
+  }
+
+  to {
+    opacity: 0.88;
+    transform: translateY(0);
+  }
+}
+
 @keyframes albumArtDrift {
   0% {
     transform: scale(1.05);
