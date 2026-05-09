@@ -610,7 +610,7 @@ export const albums = [
         startTime: 0,
         duration: 168,
         visual: "wave",
-        story: "A lively, underwater-inspired track full of color and motion.",
+        story: "Ariel aka 'Feesh Feesh' she was a tiny reddish Beta. We got her from Burbank Pet Plaza, where I believe she was part 'Dee's Fishy Infirmary' (or something like that). We plopped her down on the living room counter, where all the cats would never go. Well... except one, and that one was Pixie which she is pictured on the single's cover. I would often stop by her tank and trace my finger on her as I was booping her nose. Her interactions were always welcomed since she always fluttered around when she saw us. I would often play for her the 'Zora's Domain' (from Ocarina of Time) track lightly whenever I wasn't home, just to keep noise in the background. Hence the name and sorta how the song has the vibe of a Zora's Domain. I went into a more 'Dancy' direction because to me she was always dancing around with excitment. She was such a lovely creature and I'm glad to have met that little life force. Hope she is now 'dancing with the fishes' in heaven where hopefully I'll see her too. :).  ",
       },
     ],
   },
