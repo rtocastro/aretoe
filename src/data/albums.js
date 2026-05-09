@@ -244,7 +244,7 @@ export const albums = [
         startTime: 0,
         duration: 128,
         visual: "soft-glow",
-        story: "Simple, warm, and playful energy throughout.",
+        story: "This is a song dedicated to my little boy PB aka Moo$e, I actually wrote this song in the time of his passing. He made it just a few days shy of what would've been his 11th birthday. If you look at the Spotify canvas for this song you'll see him when we first got him, we found him in the parking lot meowing, it was a lonnnnng morning. I was probably out there for a good minute, I lost so much sleep too and had to get ready for work soon. I didn't give up on him and saved his little meowing ass. The sounds at the beginning are supposed to emulate the sounds of him trying to cover his dookie (he never covered his dookie). It was also to incapsulate him and capture the embodiment of his pure heartedness and goodness. Which I think I also layered some 'cutesy' type beat lol. I hope you find this playful and warm sounding. We called him PB because he would loved to sleep 'sandwiched' in between us, which is what led to the cover art. Which was done by @Nibblingsworld go check them out! Especially if you love cats! RIP Moo$ey you would have loved BMo she's just like you. ",
       },
     ],
   },
