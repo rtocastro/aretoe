@@ -275,7 +275,7 @@ export const albums = [
         startTime: 0,
         duration: 170,
         visual: "wave",
-        story: "A steady build of tension with an otherworldly energy.",
+        story: "I made this one after listening to the James Delgado beat, the 'Lil Scammer That Could' by Guapdad4000 & Denzel Curry. It had a lot of punch and carried a very pocketed trap feel, or at least to me it did. So I went in  that direction and try to go simple so I wouldn't over do anything. I chose a harp as one of the instruments cause I wanted it to have like a brightness to it. It was the first trap type beat I made and the original version of this had a super heavy bass. Which I don't know where it is, but I wanna find it. The name of the song came from a video playlist on youtube, they have others like trappin' in Japan, trappin in paradise etc etc. So, I was like thinking like 'Trappin in Heaven' like who does that make me think of. First person that came to mind was my dad. My dad was always up to mischief, never was really bad, but there's been moments. So I basically got a picture of a Catholic church in his town where he was from (El Chante, Jalisco) and that's the cover. It's also in the same color palette as 'The Beyond' because it was the bonus track on that CD. That version is the original super bassy version. The CD also has drawings from that I made on it and my handwritten tracklist. At some point I'll put them up for release again. Someday, but for now they're on here. I also put in the Violins at the to kinda slowly carry it out :).  ",
       },
     ],
   },
