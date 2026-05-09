@@ -306,7 +306,7 @@ export const albums = [
         startTime: 0,
         duration: 185,
         visual: "dream-blur",
-        story: "A gentle, expressive track that highlights warmth and sincerity.",
+        story: "♫♪♫",
       },
     ],
   },
