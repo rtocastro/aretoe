@@ -102,7 +102,7 @@ export const albums = [
         startTime: 0,
         duration: 153,
         visual: "sunset-pulse",
-        story: "A slow build into intensity, reflecting the rise of a blood moon.",
+        story: "This was my first collab, I was told to collaborate because it would create more reach. So I did, but I was having difficulty making it's sound. At times sometimes I pushed wayyy over the limiter and bass would take over the track. I spoke to Clover (the person I collabed with) dude let me know a bit about compression and limiting. He replaced the bass drum kicks and made it his own. So this is how this version came out. A bit more darker than the original, but carries the same punch. It's named Hateno Beach because of The Legend of Zelda. I love that game and love the fact that I think it's fitting for this song. What about you?!",
       },
     ],
   },
@@ -548,7 +548,7 @@ export const albums = [
         startTime: 0,
         duration: 144,
         visual: "dream-blur",
-        story: "A strange, fun, and playful track with a glowing spooky mood.",
+        story: "So this song came out of nowhere, I was just kinda looking around for something, just out of my 'bag'. So I was aiming for something abrupt and to bounce around, but also kinda reminded me of the abrupt 'zoomies' my cat would get once they got out using the litter box. They would run like if they saw a ghost or something. Originally the name of the song was 'Pop goes the poo ghost' but then my cousin came into the picture and actually, now that I mention her. She was the one that drew the cover art for this song. She's super talented, you should check her out @_.sxream_qu33n._on Instagram. So she drew this really cute and funny picture of a ghost popping out of a litterbox and I was like, you know what? That is the cover art for this song. So I ended up naming the song 'Spookie Dookie' cause it just felt right with the vibe of the song and the cover art. I think I had moved the background a bit to center the image, that was my contribution to it, but yeah so proud this song came sporadically and is apart of the upcoming 'Cat album' that I'm working on. It's a fun one, I hope it makes you feel like you're bouncing around and having a good time, without seeing a poo ghost of course. ",
       },
     ],
   },
@@ -579,7 +579,7 @@ export const albums = [
         startTime: 0,
         duration: 207,
         visual: "soft-glow",
-        story: "A grounded, comforting track that feels like settling into your own space.",
+        story: "Whenever I do any writing, I like to to tie things in together. So this is another song that is on the 'Cat Album' its one song that actually is more like a Lo-Fi Hip Hop/Chill Hop type of vibe. I wanted to put something that sounds more 'normal' because this album is gonna be out there and I wanted to tie in from the last album. This song reflects the warmth and love that I have for the creatures I care about at home. Hence the name. The song came naturally layer after layer everything made sense. Something came over me and I started to sing along. Towards the end of the song, you can hear me singing and if you listen extra carefully I pitched the vocals out of range a bit to give it more of an imperfect feel. I hope that when you listen to this, you too feel at 'home' too. :)",
       },
     ],
   },
@@ -641,35 +641,35 @@ export const albums = [
         startTime: 0,
         duration: 189, // 3:09
         visual: "soft-glow",
-        story: "A high-altitude opener with an expansive, floating feel.",
+        story: "This was the first song after 12.7k album that I made. It didn't get on there because it just didn't fit at the time. So what I ended up thinking like well, I could add a few more and make an EP out of it. To me, this sounded like some type of heavenly type trap beat. Originally the track was called heaven, but I already had a song called 'Trappin' In Heaven' so I ended up changing the name to something else, before finally calling it 'The Upper Atmosphere'. It fits the vibe so yeah it stayed that way. I also felt like it was a good 'airy' type of opener track for the EP. So it went up first and I think it was the right call. B)",
       },
       {
         title: "Echoes",
         startTime: 189,
         duration: 198, // 3:18
         visual: "dream-blur",
-        story: "Layered reflections and repeating textures.",
+        story: "Annnnnd this song was the 2nd song after 12.7k album. I wanted this to sorta calm down, but also be a bit off too like something that sounds familiar but also a bit different. I think midway or around there I put like this spacey sounding sample. I think it fit it well considering the vibe was sorta like super mellow and didn't need that, but also it did. This song kept it's original song name which is rare, but for what it is, I think it fits perfectly and that some of the repeated parts give that echo effect. Sometimes when I make these beats or songs or whatever I just dumpout all  the ideas at once and see what sticks, this is one those. :)",
       },
       {
         title: "The Year 12700",
         startTime: 387,
         duration: 150, // 2:30
         visual: "wave",
-        story: "Forward-looking and slightly surreal in tone.",
+        story: "This track was so dope to make, I was had my speaker almost all the way up. I knew it was good cause none of my neighbors complained lol. I wanted to make a futuristic type beat, but also have it sound HARD like something hood certified like me :). (don't test me, or do if you wanna find out). Making this beat took me back to the projects. So I had to put this on the B-side. I remember I had to take away some of the bass cause I didn't wanna kill peoples speakers, but yeah this is the one I made for the block (12700 block). Just because I make stuff for the hood doesn't mean I'm from it. In the words of my friend David Randolph 'I don't gangbang, but if you wanna tussle let's do this'. I don't claim any hood ever. ",
       },
       {
         title: "Suhpongoh-Li",
         startTime: 537,
         duration: 213, // 3:33
         visual: "sunset-pulse",
-        story: "Dynamic and evolving with a unique rhythmic feel.",
+        story: "This was another track that was made directly after 12.7k. It reminded me of like motorcyles or something like in the world of Denzel Curry's 'X-Wing' video. The first thing that came to mind was my buddy Eric, he loved motorcycles and sadly passed away in one. So I decided to name the track 'Suhpongoh-Li' because it's something he said one time instead of 'supposedly' so it attributed to my buddy Eric. I discussed this track with my buddy Ulises, we spoke about him a bit, remembered him fondly of course. We determined that THAT would be the spelling for Suhpongoh-Li for this track so if you're reading this Thanks Uli. Hope Eric is looking down on us right now and saying 'you mf's' lol :). ",
       },
       {
         title: "Dark Violet",
         startTime: 750,
         duration: 216, // 3:36
         visual: "dream-blur",
-        story: "A darker, moody closer with depth and color.",
+        story: "This song is named after the color of light I was under while making this. The whole apartment was purple which created this atmosphere for me to be like 'yeah, let's make this ender', I wanted it to have a repetive phase for a sec, but also wanted to have it sorta build up anticipation. I feel like the last part has almost this dreamy/chorus-y vibe to it. I feel like it was a good way to end the EP, there's also like these chant samples towards the end that I use. Also that's me playing guitar at the end, just for a bit though, didn't wanna over saturate and just lightly sprinkle in.  Just to whisk you way into the end of the EP. It's dark, but also warm, kinda like the dark purple light I was under while making it. There's video (somewhere out there) of my playing guitar to this track. Good luck finding that one lol. Goodbye.",
       },
     ],
   },
