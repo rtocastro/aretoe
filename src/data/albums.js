@@ -43,35 +43,35 @@ export const albums = [
         startTime: 0,
         duration: 71, // 1:11
         visual: "soft-glow",
-        story: "Introductory flow, setting the tone.",
+        story: "The original name of this was 'Aqueous The Beginning' to mark as the beginning of this journey. It was my first step out of playing guitar. Which is funny cause I do play guitar on this song. I wrote these while I was working at a commercial printing place. We used to have a Komori Aqueous 1 there and that's sorta how the name came about. It was also to mark this moment in my life, so when I revisit it was a reminder of being there and the thing goin on at the moment. ",
       },
       {
         title: "The Reef",
         startTime: 71,
         duration: 89, // 1:29
         visual: "wave",
-        story: "Layered textures like underwater ecosystems.",
+        story: "This song is named after a stage in one of my favorite games at the time called 'Splatoon 2'. It's sorta like a shooter game, but I do really like the game mechanics. If you listen to the song on Spotify the canvas for this song is a shot of me playing said game. I also included a sample of a Squidling here, in the song it's saying 'goodbye' and then it echoes, just in case you're wondering. This song is what got me noticed within the gaming community lol",
       },
       {
         title: "Space",
         startTime: 160,
         duration: 136, // 2:16
         visual: "dream-blur",
-        story: "Expansive and ambient, drifting outward.",
+        story: "I remember when I was facing a lot everywhere and it just felt like a moment I needed to be in my head. A happy place if you will so that's where I found this song. I also found an oscillator haha. This song made me feel like I was just was taking off into outerspace, which at the time I wish I was. Anyway, this song gave me a nostalgic yet new feel, the ending reminded me of this one song from the 'weekends were made for fun' or something like that. So I left it with that twinkle***",
       },
       {
         title: "Time",
         startTime: 296,
         duration: 35, // 0:35
         visual: "soft-glow",
-        story: "A brief, reflective moment.",
+        story: "I wanted to make something weird, abrupt, but also cool sounding to connect to the next song. So this is just a flipped and chopped sample from 'Dawn of the Dead' like the original one though. ",
       },
       {
         title: "Dancing With the Dead",
         startTime: 331,
         duration: 133, // 2:13
         visual: "sunset-pulse",
-        story: "Rhythmic and expressive closing energy.",
+        story: "I was inspired by an Eifel 65 song and I only found that out because In Love With A Ghost put me on. The name of that song was... 'New Life' it just sorta had this very funky bass/disco type feel. So I sorta wanted to replicate that. I used the Bass I used on the THTTD album, that's why this song says Featuring Take Her To The Disco, because I used that Bass. The original file was destroyed sorta because the hardware just died, so what you're hearing is an mp3 file layerd with my bass. Also some light editing and chops, but I really love the piano/synth part I came up for this song. Too bad I don't remember how I played that haha. Although, I do think I remember the synth I used which was a basic FL Studio plug-in. Oh and also that's me on guitar in case you didn't figure that one out. :) .",
       },
     ],
   },
