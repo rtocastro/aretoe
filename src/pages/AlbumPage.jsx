@@ -72,7 +72,8 @@ function AlbumPage() {
                     <p>{album.year}</p>
                     <p className="album-story">{album.story}</p>
                     <section className="album-player-section">
-                        {album.spotifyEmbed && (
+                    
+                                  {album.spotifyEmbed && (
                             <iframe
                                 data-testid="embed-iframe"
                                 style={{ borderRadius: "12px" }}
@@ -94,6 +95,7 @@ function AlbumPage() {
                         />
                     </section>
                 </section>
+  
             </div>
         </motion.main>
     );

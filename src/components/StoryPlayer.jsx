@@ -1,9 +1,10 @@
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 
 function StoryPlayer({ album, onTimeUpdate, onTrackChange }) {
   const [isPlaying, setIsPlaying] = useState(false);
   const [elapsedTime, setElapsedTime] = useState(0);
+  const audioRef = useRef(null);
 
   const currentTrack =
     album.tracks
@@ -78,6 +79,12 @@ function StoryPlayer({ album, onTimeUpdate, onTrackChange }) {
   function startExperience() {
     setElapsedTime(0);
     if (onTimeUpdate) onTimeUpdate(0);
+
+    if (audioRef.current) {
+      audioRef.current.currentTime = 0;
+      audioRef.current.play();
+    }
+
     setIsPlaying(true);
   }
 
@@ -85,6 +92,11 @@ function StoryPlayer({ album, onTimeUpdate, onTrackChange }) {
     setIsPlaying(false);
     setElapsedTime(0);
     if (onTimeUpdate) onTimeUpdate(0);
+
+    if (audioRef.current) {
+      audioRef.current.pause();
+      audioRef.current.currentTime = 0;
+    }
   }
 
   return (
@@ -95,12 +107,18 @@ function StoryPlayer({ album, onTimeUpdate, onTrackChange }) {
     <div className="story-player">
       <button
         className="story-button"
+
+
         onClick={isPlaying ? stopExperience : startExperience}
         style={{
           borderColor: album.colors.primary,
           boxShadow: `0 0 20px ${album.colors.primary}66`,
         }}
+
       >
+        {album.audioSrc && (
+          <audio ref={audioRef} src={album.audioSrc} preload="metadata" />
+        )}
         {isPlaying ? "Stop Experience" : "▶ Start Album Experience"}
       </button>
 
@@ -138,8 +156,6 @@ function StoryPlayer({ album, onTimeUpdate, onTrackChange }) {
             {currentStoryMoment ? currentStoryMoment.text : currentTrack?.story}
           </p>
         </motion.div>
-
-        \
       </AnimatePresence>
 
       <div className="track-indicator">
