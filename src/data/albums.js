@@ -62,14 +62,14 @@ export const albums = [
       },
       {
         title: "Time",
-        startTime: 296,
+        startTime: 297,
         duration: 35, // 0:35
         visual: "soft-glow",
         story: "I wanted to make something weird, abrupt, but also cool sounding to connect to the next song. So this is just a flipped and chopped sample from 'Dawn of the Dead' like the original one though. ",
       },
       {
         title: "Dancing With the Dead",
-        startTime: 331,
+        startTime: 332,
         duration: 133, // 2:13
         visual: "sunset-pulse",
         story: "I was inspired by an Eifel 65 song and I only found that out because In Love With A Ghost put me on. The name of that song was... 'New Life' it just sorta had this very funky bass/disco type feel. So I sorta wanted to replicate that. I used the Bass I used on the THTTD album, that's why this song says Featuring Take Her To The Disco, because I used that Bass. The original file was destroyed sorta because the hardware just died, so what you're hearing is an mp3 file layerd with my bass. Also some light editing and chops, but I really love the piano/synth part I came up for this song. Too bad I don't remember how I played that haha. Although, I do think I remember the synth I used which was a basic FL Studio plug-in. Oh and also that's me on guitar in case you didn't figure that one out. :) .",
@@ -214,7 +214,7 @@ export const albums = [
       },
       {
         title: "The Beyond",
-        startTime: 343,
+        startTime: 345,
         duration: 181, // 3:01
         visual: "sunset-pulse",
         story: "The way that this came out was so dope towards the end. It almost felt like it was like th soundtrack for the endpart of a movie. I wanted to make the last track feel like it was leaving you adrift in space. I always try to lead off one EP on to the next one. So it's sorta like a sneakpeak of what's next. The next song that would be going on after this was 'Fire In The Sky' which I will talk more about on that track. On the EP stream of this EP, which it's named after is the video of the view of Earth from the Space Station. The cover of the album is a snapshot of that, you can watch the whole video on youtube as it transitions from day to aurora. Full video should be up somewhere on this site :). ",
@@ -427,7 +427,7 @@ export const albums = [
       },
       {
         title: "4AM 40oz",
-        startTime: 534,
+        startTime: 536,
         duration: 235,
         visual: "soft-glow",
         story: "This song is about how we would be drinking 40oz til the wayyyyy early in the morning. My favorite and still favorite to this day is Mickey's 40oz. Something about feels so right to me, but yeah that's what the songs about. More specifically this one night at like 1:52am we were at John's liqour on Van Nuys and Polk coming back from there, sipping on 40oz walking through the projects late night, which still feels like a blur before  getting back home. Back then I used to get drunk play video games and just do artsy shit or find the next finesse haha I was trouble back then. Well not so much so all the time, I did enjoy popping in at my friends house like at 2am and watching the recap of the Daily Show and Colbert Report. Damn I really been watching these shows for a minute. Anyway, this song was made in a style that resembles one of my favorite producers Alex Zavala from Chicago. Dude is a wizard on beats. There's two versions of this song one has the bass turned up. Which is the single version. :).",
@@ -448,35 +448,35 @@ export const albums = [
       },
       {
         title: "The Red District",
-        startTime: 1192,
+        startTime: 1194,
         duration: 171,
         visual: "sunset-pulse",
         story: "This beat is supposed to sound super silly, but with a mean 808 in it. This song is about kicking it at Big Red's spot. We used chill all the time, smoke and drink pretty much all day. We used to get so drunk there that whoever passed out would get written on or messed with for passing out. That happened to every single one of us, except Richard lol cause he would kick everyone out before that can happen. He got my ass good one time though, cause I did end up passing out by the living room/kitchen. So I think he drew on me and took a black and white pic with him in the background chillin' smoking a blunt LMAO. I think I still have the pic to this day shit makes me laugh hard, although it was so much more serious when I woke up hahaha. ",
       },
       {
         title: "November",
-        startTime: 1363,
+        startTime: 1366,
         duration: 226,
         visual: "dream-blur",
         story: "This track is track a about one of the coldest Novembers to come to mind. I wanted a somber tone for the song to kinda overlay throughout the song with a few bright tones sprinkled in, with somethings that are also sorta hopeful sounding (if that makes sense).  I dedicate this track to friend Francis who was the inspiration for this song sorta, or more like that day. He was young dude, who's life was taken way too soon and even more so a few days before his 18th birthday. It was a tragedy that is repeated way too often and I wish that one day this isn't a pain shared by many. I think my friend and I were the last ones to speak to him, he was shot shorlty after. Really taught me to choose my words wisely everytime I say them, cause I never know what could be my last words spoken. His last words, were more like a chuckle and a shy smile, which I'll always remember.  Much love to him and his family and may you rest in peace Francis. ",
       },
       {
         title: "The Electric Box",
-        startTime: 1589,
+        startTime: 1593,
         duration: 232,
         visual: "wave",
         story: "So I didn't know what to call this song originally because it reminded me of hanging outside in front of the apts. This apartment had an electric box out front that we'd always hang out with and people came through. We would hang there often 'til late sometimes even up to midnight/1am. So I guess that's the name the song or what to call it I mean. Sometimes we'd jut spend time there, just cracking jokes with eachother, drinking, playing cards, dominos and/or not limited to creating chubby loco lore. If ykyk. More often then not we weren't ever up to any mischief, just friends hanging outside with nothing better to do. And that place was the green, buzzing Electric Box. I've been wanting to make a video for this for a minute, maybe sometime soon when I roll through the Namz. MAYBE.",
       },
       {
         title: "Fakie Flip",
-        startTime: 1811,
+        startTime: 1807,
         duration: 214,
         visual: "soft-glow",
         story: "I wanted to make another song that I could skate to, or people could put skating to, whichever. Has this like 90's Hip Hop feel to it. I picture just skating down the coastline or something, maybe a drink or maybe a smoke. Zigzagging around weaving through people on a chill day. Getting tricks in between like your some type of pro (but you're not). That's what I picture when this song is playing, just skating carelessly, effortlessly, but maybe sometime in the 90's. Also named after one of my favorite skateboarding tricks, which I can still do. C'mon now. Even at this age I can still put it down, or if I can't I'll break a leg doing something I like :). ",
       },
       {
         title: "Summertime In The PAC",
-        startTime: 2022,
+        startTime: 2020,
         duration: 248,
         visual: "sunset-pulse",
         story: "I chose this to be the ender, cause it just felt like such a warm closer. PAC isn't an acronym, it's short for Pacoima. It's specfically about a day in the summer (duh). July 4th, 2017, there was like a dope ass view from Hansen Dam on that one hill where everyone kicks it. So we hung out there, watched fireworks and it was so dope cause like you can see a lot of the valley. The sun was setting slowly, and just like that you can see the whole valley just lighting up from all the fireworks. Little kids were running around having fun, people were smoking, drinking, even bbqing that shit felt like a hood block party, LOVE THAT SHIT. Love you Pacoima <3.",
@@ -512,20 +512,20 @@ export const albums = [
       {
         title: "The Longest Beach",
         startTime: 128,
-        duration: 240,
+        duration: 241,
         visual: "wave",
         story: "So I found some parking right on the corner of Ocean Blvd and Cherry, and I was like wow this is perfect. So I parked there and I just sat in my car for a while, looking out at the beach and the ocean. So I hopped out of the car and walked it to the beach (which wasn't far). I just sat there for a while, taking it all in. I was really trying to soak up the vibe and the energy of the place. I took off my shoes, dip me feet in the sand. I actually took out my phone and recorded that moment. It's currently serving as my Spotify canvas for this song. So if you listen to this song on spotify, you'll see the visual representation of this moment. I watched the ocean waves just crashing onto the beach just on and on and on, I was lost in thought. So this song is meant to capture that feeling of being at the beach, just taking it all in and feeling out the vibe. It's a way more laid back than Junipero, but still has that somber yet colorful energy.",
       },
       {
         title: "Zero To Bixby",
-        startTime: 368,
+        startTime: 367,
         duration: 180,
         visual: "dream-blur",
         story: "Originally, this song was called 'My Heart Goes Zero To Bixby' but I thought that was a bit much lol. So I ended up shortening it to just 'Zero To Bixby'. It's a play on the phrase 'Zero to 60' so it's meant to say like something done really fast. So the phrase of my heart being zero to Bixby is more like from here to bixby I love you or something in that vain. Or at least that's what I was aiming for. This song is meant to capture the energy of the moment. It's got a LOT more of an upbeat and energetic vibe than the previous track, but still has that colorful and vibrant energy. I also gave it a very 'Blink 182' feel. It's meant to feel energetic, bright and fun with lots of upbeat moments. I wanted it to feel like a fun, energetic, and colorful track that still has that beachy vibe. It's meant to be a fun one.",
       },
       {
         title: "PCH",
-        startTime: 548,
+        startTime: 547,
         duration: 252,
         visual: "sunset-pulse",
         story: "So when I first started making this song, I was like, okay gonna need an ender. Like one that is warm/fuzzy and just leave you with like a warm 'resolute' feeling. So I ended up making this song, and it ended up being a lot more emotional than I expected. It has this really warm and cozy energy that I wasn't expecting but I'm really happy with how it turned out. It's meant to feel like you're driving down the Pacific Coast Highway at sunset, just taking in the sights and sounds of the ocean and the beach. The song is not named after PCH it actually is short for 'Please Come Home'. Since the song sounds like a warm embrace, it's got this really like this warm, vibrant resolution to it and it's just a really nice way to end the EP, I think :)",

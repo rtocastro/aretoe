@@ -99,6 +99,20 @@ function StoryPlayer({ album, onTimeUpdate, onTrackChange }) {
     }
   }
 
+  function jumpToTrack(track) {
+    const start = track.startTime;
+
+    setElapsedTime(start);
+    if (onTimeUpdate) onTimeUpdate(start);
+
+    if (audioRef.current) {
+      audioRef.current.currentTime = start;
+      audioRef.current.play();
+    }
+
+    setIsPlaying(true);
+  }
+
   return (
 
 
@@ -147,7 +161,7 @@ function StoryPlayer({ album, onTimeUpdate, onTrackChange }) {
           exit={{ opacity: 0, y: -20 }}
           transition={{ duration: 0.4 }}
         >
-          <p className="story-time">{elapsedTime}s</p>
+          {/* <p className="story-time">{elapsedTime}s</p> Timer for testing timing */}
           <h2>{currentTrack?.title}</h2>
           <p className="signal-label">
             SIGNAL FRAGMENT
@@ -163,9 +177,10 @@ function StoryPlayer({ album, onTimeUpdate, onTrackChange }) {
           const isActive = currentTrack?.title === track.title;
 
           return (
-            <div
+            <button
               key={track.title}
               className={`track-pill ${isActive ? "active" : ""}`}
+              onClick={() => jumpToTrack(track)}
               style={{
                 borderColor: isActive ? album.colors.primary : "rgba(255,255,255,0.2)",
                 boxShadow: isActive ? `0 0 18px ${album.colors.primary}66` : "none",
@@ -173,7 +188,7 @@ function StoryPlayer({ album, onTimeUpdate, onTrackChange }) {
             >
               <span>{index + 1}</span>
               <p>{track.title}</p>
-            </div>
+            </button>
           );
         })}
       </div>

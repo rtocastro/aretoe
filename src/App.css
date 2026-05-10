@@ -487,6 +487,18 @@ a {
   color: var(--album-secondary);
 }
 
+.track-pill {
+  width: 100%;
+  color: white;
+  cursor: pointer;
+  text-align: left;
+  font: inherit;
+}
+
+.track-pill:hover {
+  transform: translateX(8px);
+  background: rgba(255, 255, 255, 0.14);
+}
 
 @keyframes storyFade {
   from {
