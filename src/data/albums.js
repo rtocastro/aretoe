@@ -337,7 +337,7 @@ export const albums = [
         startTime: 0,
         duration: 235,
         visual: "soft-glow",
-        story: "A slow, immersive track that feels like drifting through the early hours of the morning.",
+        story: "This song is about how we would be drinking 40oz til the wayyyyy early in the morning. My favorite and still favorite to this day is Mickey's 40oz. Something about feels so right to me, but yeah that's what the songs about. More specifically this one night at like 1:52am we were at John's liqour on Van Nuys and Polk coming back from there, sipping on 40oz walking through the projects late night, which still feels like a blur before  getting back home. Back then I used to get drunk play video games and just do artsy shit or find the next finesse haha I was trouble back then. Well not so much so all the time, I did enjoy popping in at my friends house like at 2am and watching the recap of the Daily Show and Colbert Report. Damn I really been watching these shows for a minute. Anyway, this song was made in a style that resembles one of my favorite producers Alex Zavala from Chicago. Dude is a wizard on beats. There's two versions of this song one has the bass turned up. Which is the single version. Which is this one. :)",
       },
     ],
   },
@@ -391,7 +391,7 @@ export const albums = [
 
     spotifyEmbed: "https://open.spotify.com/embed/album/7p0YjLM3np7w7CnqiP4oaf?utm_source=generator&theme=0",
 
-    story: "A full-length project blending energetic moments, humor, and introspection across a wide range of sounds and moods.",
+    story: "A full-length project blending energetic moments, humor, and introspection and an audible journey through my time at 12700 Van Nuys Blvd.",
 
     tracks: [
       {
@@ -399,14 +399,14 @@ export const albums = [
         startTime: 0,
         duration: 186,
         visual: "soft-glow",
-        story: "I wanted the opening to feel like it was pulling you back from space (where the last EP left you). This is album is my first album with this project. All my EP's/Albums have themes, this one is an audible journey through my life in the project housing located at 12700 Van Nuys Blvd. The song is called 'Fire In The Sky' because it's supposed to bring back a time when myself, Black Ricky and Angel were hanging at Nini's and Bubba's porch and we were smoking weed and drinking (don't ask how old we were) and we saw what we could only explain as aliens. We all looked up to the sky and saw these bright lights that ended up all turning red and basically filling the projects with that light. It was crazy!!! Then out of nowhere on of the 5 lights that were in the sky started falling over down towards Pacoima park. About a minute or two later there was black helicopter on it's way there and that was the last we ever heard of that. ",
+        story: "I wanted the opening to feel like it was pulling you back from space (where the last EP left you). This is album is my first album with this project. All my EP's/Albums have themes, this one is an audible journey through my life in the project housing located at 12700 Van Nuys Blvd. The song is called 'Fire In The Sky' because it's supposed to bring back a time when myself, Black Ricky and Angel were hanging at Nini's and Bubba's porch and we were smoking weed and drinking (don't ask how old we were) and we saw what we could only explain as aliens. We all looked up to the sky and saw these bright lights that ended up all turning red and basically filling the projects with that light. They kept on shifting, changing color, and they formed different formation, but ended up at like a dice 5 shape (cause it was like 5 objects) after all that. It was crazy!!! Then out of nowhere one of the 5 lights that were in the sky started falling over down towards Pacoima park. About a minute or two later there was black helicopter on it's way there and that was the last we ever heard of that. ",
       },
       {
         title: "The Clinic",
         startTime: 186,
         duration: 186,
         visual: "wave",
-        story: "I really wanted some skateable tracks on here. Like tracks you can put your skatebaord part to. Something that was supposed to be like a 'Jedi Mind Tricks' type beat. This is what I came up with, it's named 'The Clinic' after a spot we used to skate at all the in Pacoima (12756 Van Nuys Blvd). It was a lonnnggg ledge in front of a clinic, it was waxxed up to the max. Everyone who lived around the area has defintely skate that ledge. I think the best trick I got on there was like a 50/50 kickflip out. I actually still have a scar on the top of my nose from this ledge. I once was skating on my way to school and fell face first after going fast into the ledge, I looked like I was marked for death by the Lin Kuei haha. Took like a month or two to completely heal/scab and leave me with a interesting scar. Either way clinic ledge was still dope annnnnd is no longer skateable lol.",
+        story: "I really wanted some skateable tracks on here. Like tracks you can put your skatebaord part to. Something that was supposed to be like a 'Jedi Mind Tricks' type beat. This is what I came up with, it's named 'The Clinic' after a spot we used to skate at all the in Pacoima (12756 Van Nuys Blvd). It was a lonnnggg ledge in front of a clinic, it was waxxed up to the max. Everyone who lived around the area has defintely skated that ledge. I think the best trick I got on there was like a 50/50 kickflip out. I actually still have a scar on the top of my nose from this ledge. I once was skating on my way to school and fell face first after going fast into the ledge, I looked like I was marked for death by the Lin Kuei haha. Took like a month or two to completely heal/scab and leave me with a interesting scar. Either way clinic ledge was still dope annnnnd is no longer skateable lol. I think because it's not waxxed, so someone get to it pls. :)",
       },
       {
         title: "You Laughing At My Dog?!",
@@ -420,7 +420,7 @@ export const albums = [
         startTime: 534,
         duration: 235,
         visual: "soft-glow",
-        story: "This song is about how would drinking 40oz til the wayyyyy early in the morning. My favorite and still favorite to this day is Mickey's 40oz. Something about feels so right to me, but yeah that's what the songs about. More specifically this one night at like 1:52am we were at John's liqour on Van Nuys and Polk sipping on 40oz walking through the projects late night, which still feels like a blur before  getting back home. Back then I used to get drunk play video games and just do artsy shit or find the next finesse haha I was trouble back then. Well not so much so all the time, I did enjoy popping in at my friends house like at 2am and watching the recap of the Daily Show and Colbert Report. Damn I really been watching these shows for a minute. Anyway, this song was made in a style that resembles one of my favorite producers Alex Zavala from Chicago. Dude is a wizard on beats. There's two versions of this song one has the bass turned up. Which is the single version. :).",
+        story: "This song is about how we would be drinking 40oz til the wayyyyy early in the morning. My favorite and still favorite to this day is Mickey's 40oz. Something about feels so right to me, but yeah that's what the songs about. More specifically this one night at like 1:52am we were at John's liqour on Van Nuys and Polk coming back from there, sipping on 40oz walking through the projects late night, which still feels like a blur before  getting back home. Back then I used to get drunk play video games and just do artsy shit or find the next finesse haha I was trouble back then. Well not so much so all the time, I did enjoy popping in at my friends house like at 2am and watching the recap of the Daily Show and Colbert Report. Damn I really been watching these shows for a minute. Anyway, this song was made in a style that resembles one of my favorite producers Alex Zavala from Chicago. Dude is a wizard on beats. There's two versions of this song one has the bass turned up. Which is the single version. :).",
       },
       {
         title: "Superstar",
@@ -430,7 +430,7 @@ export const albums = [
         story: "This is my Lil Nas X type beat. It's carries this positive energy that I'm like yeah, reminds me of my time at 12700 block. Like there was moments where I just felt on top of the world. I was skateboarding pretty good, had a cute girlfriend at the time, I was slowly getting into music and slowly getting into the scene. Just accomplishing one thing after another it felt like the sky was the limit. I felt like nothing to could touch me and I was going to accomplish everything I ever dreamt of, which I sorta did, but not like in the get money and get rich type shit. I said I was going to start music, did that. I said I was gonna make metal, did that. I said I was gonna move out and handle it all myself, did that. This song sorta incapsulates he joy I've had coming up outta the hood. I love and will always remember how the Namz were part of that journey. ",
       },
       {
-        title: "Gravity (O)Hill",
+        title: "Gravity (C)Hill",
         startTime: 945,
         duration: 247,
         visual: "dream-blur",
@@ -448,25 +448,25 @@ export const albums = [
         startTime: 1363,
         duration: 226,
         visual: "dream-blur",
-        story: "This track is track about one of the coldest Novembers to come to mind. I wanted a somber tone for the song to kinda overlay throughout the song with a few bright tones sprinkled in, with somethings that are also sorta hopeful sounding (if that makes sense).  I dedicate this track to friend Francis who was the inspiration for this song sorta, or more like that day. He was young dude, who's life was taken way too soon and even more so a few days before his 18th birthday. It was a tragedy that is repeated way too often and I wish that one day this isn't a pain shared by many. I think my friend and I were the last ones to speak to him, he was shot shorlty after. Really taught me to choose my words wisely everytime I say them, cause I never know what could be my last words spoken. Much love to him and his family and may you rest in peace Francis. ",
+        story: "This track is track a about one of the coldest Novembers to come to mind. I wanted a somber tone for the song to kinda overlay throughout the song with a few bright tones sprinkled in, with somethings that are also sorta hopeful sounding (if that makes sense).  I dedicate this track to friend Francis who was the inspiration for this song sorta, or more like that day. He was young dude, who's life was taken way too soon and even more so a few days before his 18th birthday. It was a tragedy that is repeated way too often and I wish that one day this isn't a pain shared by many. I think my friend and I were the last ones to speak to him, he was shot shorlty after. Really taught me to choose my words wisely everytime I say them, cause I never know what could be my last words spoken. His last words, were more like a chuckle and a shy smile, which I'll always remember.  Much love to him and his family and may you rest in peace Francis. ",
       },
       {
         title: "The Electric Box",
         startTime: 1589,
         duration: 232,
         visual: "wave",
-        story: "So I didn't know what to call this song originally because it reminded me of hanging outside in front of apt. This apartment had an electric box out front that we'd always hang out with and people came through. We would hang there often 'til late sometimes even up to midnight/1am. Sometimes just cracking jokes with eachother, drinking, playing cards, dominos and/or not limited to creating chubby loco lore. More often then not we weren't ever up to any mischief, just friends hanging outside with nothing better to do. That was the green, buzzing Electric Box. I've been wanting to make a video for this for a minute, maybe sometime soon when I roll through the Namz.",
+        story: "So I didn't know what to call this song originally because it reminded me of hanging outside in front of the apts. This apartment had an electric box out front that we'd always hang out with and people came through. We would hang there often 'til late sometimes even up to midnight/1am. So I guess that's the name the song or what to call it I mean. Sometimes we'd jut spend time there, just cracking jokes with eachother, drinking, playing cards, dominos and/or not limited to creating chubby loco lore. If ykyk. More often then not we weren't ever up to any mischief, just friends hanging outside with nothing better to do. And that place was the green, buzzing Electric Box. I've been wanting to make a video for this for a minute, maybe sometime soon when I roll through the Namz. MAYBE.",
       },
       {
         title: "Fakie Flip",
-        startTime: 1821,
+        startTime: 1811,
         duration: 214,
         visual: "soft-glow",
         story: "I wanted to make another song that I could skate to, or people could put skating to, whichever. Has this like 90's Hip Hop feel to it. I picture just skating down the coastline or something, maybe a drink or maybe a smoke. Zigzagging around weaving through people on a chill day. Getting tricks in between like your some type of pro (but you're not). That's what I picture when this song is playing, just skating carelessly, effortlessly, but maybe sometime in the 90's. Also named after one of my favorite skateboarding tricks, which I can still do. C'mon now. Even at this age I can still put it down, or if I can't I'll break a leg doing something I like :). ",
       },
       {
         title: "Summertime In The PAC",
-        startTime: 2035,
+        startTime: 2022,
         duration: 248,
         visual: "sunset-pulse",
         story: "I chose this to be the ender, cause it just felt like such a warm closer. PAC isn't an acronym, it's short for Pacoima. It's specfically about a day in the summer (duh). July 4th, 2017, there was like a dope ass view from Hansen Dam on that one hill where everyone kicks it. So we hung out there, watched fireworks and it was so dope cause like you can see a lot of the valley. The sun was setting slowly, and just like that you can see the whole valley just lighting up from all the fireworks. Little kids were running around having fun, people were smoking, drinking, even bbqing that shit felt like a hood block party, LOVE THAT SHIT. Love you Pacoima <3.",
