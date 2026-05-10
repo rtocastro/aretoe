@@ -500,6 +500,30 @@ a {
   background: rgba(255, 255, 255, 0.14);
 }
 
+.related-media {
+  display: grid;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.related-media-card {
+  border: 1px solid rgba(255,255,255,0.14);
+  border-radius: 18px;
+  overflow: hidden;
+  background: rgba(255,255,255,0.06);
+}
+
+.related-media-card iframe {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  border: 0;
+}
+
+.related-media-card h3 {
+  padding: 1rem;
+  margin: 0;
+}
+
 @keyframes storyFade {
   from {
     opacity: 0;

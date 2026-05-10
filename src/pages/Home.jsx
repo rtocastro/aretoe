@@ -42,7 +42,7 @@ function Home() {
         <h2>/ärtō/</h2>
         <p>
 
-          Music, code, and creative experiments by R&apos;To.
+          Music, creative and nerd.
 
         </p>
       </section>
@@ -81,7 +81,7 @@ function Home() {
           <p className="eyebrow">about</p>
           <h2>R'To</h2>
           <p>
-            R'To is a music and creative coding project blending experimental sound,
+            A music and creative coding project blending experimental sound,
             color-driven visuals, and interactive storytelling.
           </p>
         </div>

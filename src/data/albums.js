@@ -358,7 +358,7 @@ export const albums = [
     artist: "R'To",
     year: "2023",
     type: "Single",
-            audioSrc: "/audio/ice-cold-zel-freestyle-instrumental-remix.mp3",
+    audioSrc: "/audio/ice-cold-zel-freestyle-instrumental-remix.mp3",
     totalDuration: 84, // 1 min 24 sec
 
     colors: {
@@ -593,6 +593,14 @@ export const albums = [
         duration: 207,
         visual: "soft-glow",
         story: "Whenever I do any writing, I like to to tie things in together. So this is another song that is on the 'Cat Album' its one song that actually is more like a Lo-Fi Hip Hop/Chill Hop type of vibe. I wanted to put something that sounds more 'normal' because this album is gonna be out there and I wanted to tie in from the last album. This song reflects the warmth and love that I have for the creatures I care about at home. Hence the name. The song came naturally layer after layer everything made sense. Something came over me and I started to sing along. Towards the end of the song, you can hear me singing and if you listen extra carefully I pitched the vocals out of range a bit to give it more of an imperfect feel. I hope that when you listen to this, you too feel at 'home' too. :)",
+        relatedMedia: [
+          {
+            type: "youtube",
+            title: "Home Music Video",
+            youtubeId: "ZnCv_73VqHM",
+          },
+        ],
+        totalDuration: 207,
       },
     ],
   },

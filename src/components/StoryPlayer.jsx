@@ -1,5 +1,6 @@
 import { useEffect, useRef, useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
+import RelatedMedia from "./RelatedMedia";
 
 function StoryPlayer({ album, onTimeUpdate, onTrackChange }) {
   const [isPlaying, setIsPlaying] = useState(false);
@@ -189,8 +190,15 @@ function StoryPlayer({ album, onTimeUpdate, onTrackChange }) {
               <span>{index + 1}</span>
               <p>{track.title}</p>
             </button>
+
+
           );
         })}
+
+        {currentTrack?.relatedMedia?.length > 0 && (
+          <RelatedMedia media={currentTrack.relatedMedia} />
+        )}
+
       </div>
 
     </div>
