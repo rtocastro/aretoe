@@ -524,6 +524,14 @@ a {
   margin: 0;
 }
 
+.site-counter {
+  margin-top: 1.5rem;
+  font-family: monospace;
+  font-size: 0.75rem;
+  letter-spacing: 0.18em;
+  opacity: 0.18;
+}
+
 @keyframes storyFade {
   from {
     opacity: 0;

@@ -155,6 +155,10 @@ function Home() {
           <a href="https://open.spotify.com/artist/4lV1osNqKB7XOXaBIV0710" target="_blank">Spotify</a>
           <a href="https://www.youtube.com/channel/UC5vrZs5gw7elemOs364qGLQ" target="_blank">YouTube</a>
         </div>
+
+        {/* <p className="site-counter">
+  visitors: 000127
+</p> */}
       </footer>
     </main>
   );
