@@ -451,7 +451,7 @@ export const albums = [
         startTime: 1194,
         duration: 171,
         visual: "sunset-pulse",
-        story: "This beat is supposed to sound super silly, but with a mean 808 in it. This song is about kicking it at Big Red's spot. We used chill all the time, smoke and drink pretty much all day. We used to get so drunk there that whoever passed out would get written on or messed with for passing out. That happened to every single one of us, except Richard lol cause he would kick everyone out before that can happen. He got my ass good one time though, cause I did end up passing out by the living room/kitchen. So I think he drew on me and took a black and white pic with him in the background chillin' smoking a blunt LMAO. I think I still have the pic to this day shit makes me laugh hard, although it was so much more serious when I woke up hahaha. ",
+        story: "This beat is supposed to sound super silly, but with a mean 808 in it. This song is about kicking it at Big Red's spot. We used chill all the time, smoke and drink pretty much all day. We used to get so drunk so much so there that whoever passed out would get written on or messed with for passing out. That happened to every single one of us, except Richard lol cause he would kick everyone out before that can happen. He got my ass good one time though, cause I did end up passing out by the living room/kitchen. it was diabolical haha. So I think he drew on me and took a black and white pic with him in the background chillin' smoking a blunt LMAO. I think I still have the pic to this day shit makes me laugh hard, although it was so much more serious when I woke up hahaha. ",
       },
       {
         title: "November",
@@ -479,7 +479,7 @@ export const albums = [
         startTime: 2020,
         duration: 248,
         visual: "sunset-pulse",
-        story: "I chose this to be the ender, cause it just felt like such a warm closer. PAC isn't an acronym, it's short for Pacoima. It's specfically about a day in the summer (duh). July 4th, 2017, there was like a dope ass view from Hansen Dam on that one hill where everyone kicks it. So we hung out there, watched fireworks and it was so dope cause like you can see a lot of the valley. The sun was setting slowly, and just like that you can see the whole valley just lighting up from all the fireworks. Little kids were running around having fun, people were smoking, drinking, even bbqing that shit felt like a hood block party, LOVE THAT SHIT. Love you Pacoima <3.",
+        story: "I chose this to be the ender, cause it just felt like such a warm closer. The snaps that you hear at the end are samples of actual snaps from my brother Danny and Godson Eric. Just in case you didn't know PAC isn't an acronym, it's short for Pacoima. This song is specfically about a day in the summer (duh). July 4th, 2017, there was like a dope ass view from Hansen Dam on that one hill where everyone kicks it. So we hung out there, watched fireworks and it was so dope cause like you can see a lot of the valley. The sun was setting slowly, and just like that you can see the whole valley just lighting up from all the fireworks. Little kids were running around having fun, people were smoking, drinking, even bbqing that shit felt like a hood block party, LOVE THAT SHIT. Love you Pacoima <3.",
       },
     ],
   },

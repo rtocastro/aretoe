@@ -167,9 +167,18 @@ function StoryPlayer({ album, onTimeUpdate, onTrackChange }) {
           <p className="signal-label">
             SIGNAL FRAGMENT
           </p>
-          <p className="story-moment">
-            {currentStoryMoment ? currentStoryMoment.text : currentTrack?.story}
-          </p>
+<AnimatePresence mode="wait">
+  <motion.p
+    key={currentStoryMoment?.text || currentTrack?.story}
+    className="story-moment"
+    initial={{ opacity: 0, y: 8, filter: "blur(4px)" }}
+    animate={{ opacity: 1, y: 0, filter: "blur(0px)" }}
+    exit={{ opacity: 0, y: -8, filter: "blur(4px)" }}
+    transition={{ duration: 0.55, ease: "easeOut" }}
+  >
+    {currentStoryMoment ? currentStoryMoment.text : currentTrack?.story}
+  </motion.p>
+</AnimatePresence>
         </motion.div>
       </AnimatePresence>
 
