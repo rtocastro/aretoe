@@ -678,7 +678,7 @@ export const albums = [
         startTime: 387,
         duration: 150, // 2:30
         visual: "wave",
-        story: "This track was so dope to make, I was had my speaker almost all the way up. I knew it was good cause none of my neighbors complained lol. I wanted to make a futuristic type beat, but also have it sound HARD like something hood certified like me :). (don't test me, or do if you wanna find out). Making this beat took me back to the projects. So I had to put this on the B-side. I remember I had to take away some of the bass cause I didn't wanna kill peoples speakers, but yeah this is the one I made for the block (12700 block). Just because I make stuff for the hood doesn't mean I'm from it. In the words of my friend David Randolph 'I don't gangbang, but if you wanna tussle let's do this'. I don't claim any hood ever. ",
+        story: "This track was so dope to make, whe I was recording this I had my speakers almost all the way up. I knew it was good cause none of my neighbors complained lol. I wanted to make a futuristic type beat, but also have it sound HARD like something hood certified like me :). (don't test me, or do if you wanna find out). Making this beat took me back to the projects. So I had to put this on the B-side. I remember I had to take away some of the bass cause I didn't wanna kill peoples speakers, but yeah this is the one I made for the block (12700 block). Just because I make stuff for the hood doesn't mean I'm from it. In the words of my friend David Randolph 'I don't gangbang, but if you wanna tussle let's do this'. I don't claim any hood ever. ",
       },
       {
         title: "Suhpongoh-Li",
