@@ -50,14 +50,14 @@ function Home() {
       
       <section className="featured">
         <h2>Featured</h2>
-        <AlbumCard album={albums.find(a => a.slug === "12-7k")} />
+        <AlbumCard album={albums.find(a => a.slug === "mom-where-are-you-i-think-ive-got-the-zoomies")} />
       </section>
 
       <button
         className="start-button"
-        onClick={() => navigate("/albums/12-7k")}
+        onClick={() => navigate("/albums/mom-where-are-you-i-think-ive-got-the-zoomies")}
       >
-        ▶ Start with 12.7k
+        ▶ Start with the recently realeased
       </button>
       <br />
 

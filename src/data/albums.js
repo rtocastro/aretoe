@@ -13,6 +13,7 @@ import hairballCover from "../assets/albums/where-i-lay-my-hairball-is-home.jpg"
 import arielCover from "../assets/albums/ariels-domain.jpg";
 import sevenkbSidesCover from "../assets/albums/12-7k-b-sides.jpg";
 import hatenoCover from "../assets/albums/hateno-beach-blood-moon-rising.jpg";
+import momCover from "../assets/albums/mom-where-are-you-i-think-ive-got-the-zoomies.png"
 
 
 export const albums = [
@@ -693,6 +694,39 @@ export const albums = [
         duration: 216, // 3:36
         visual: "dream-blur",
         story: "This song is named after the color of light I was under while making this. The whole apartment was purple which created this atmosphere for me to be like 'yeah, let's make this ender', I wanted it to have a repetive phase for a sec, but also wanted to have it sorta build up anticipation. I feel like the last part has almost this dreamy/chorus-y vibe to it. I feel like it was a good way to end the EP, there's also like these chant samples towards the end that I use. Also that's me playing guitar at the end, just for a bit though, didn't wanna over saturate and just lightly sprinkle in.  Just to whisk you way into the end of the EP. It's dark, but also warm, kinda like the dark purple light I was under while making it. There's video (somewhere out there) of my playing guitar to this track. Good luck finding that one lol. Goodbye.",
+      },
+    ],
+  },
+
+    // Zoomies Single
+  {
+    title: "Mom Where Are You?! I Think I've Got The Zoomies",
+    slug: "mom-where-are-you-i-think-ive-got-the-zoomies",
+    coverImage: momCover,
+    artist: "R'To",
+    year: "2026",
+    type: "Single",
+    audioSrc: "/audio/mom-where-are-you-i-think-ive-got-the-zoomies.mp3",
+    totalDuration: 164, // 2 min 44 sec
+
+    colors: {
+      primary: "#22036c",     // dark blue
+      secondary: "#2e27f0",   // blue matte
+      background: "#05082a",  // deep blue
+    },
+
+    spotifyEmbed: "https://open.spotify.com/embed/album/76Jlpz36wQeFv5LvVHSDLF?utm_source=generator&theme=0",
+
+
+    story: "A vibrant, playful track inspired by aquatic themes and colorful, animated energy.",
+
+    tracks: [
+      {
+        title: "Mom Where Are You?! I Think I've Got The Zoomies",
+        startTime: 0,
+        duration: 164,
+        visual: "wave",
+        story: "I remember when I was making this, I felt so lost, like what was I gonna do now?! the audio correlates with that with the 'looking' left and right as if the your ears are searching sorta. The cover art you see is my cat Wombat aka 'Wombacita' aka Arceus. I once came back from briefly looking outside at fireworks on July 5th?! I wasn't gone more than 5 minutes and she had this look like she was so curious/anxious about where I was. I have a picture of that somewhere I'll have to add it below. And of course she immediately received so many pets after that moment. She holds grudges lol. This was one of the first songs I had written after my mom passed. I remember when I was making this, I didn't want to end sad. In fact, one of my favorite things to do is switch up people moods. Also I wanted to convey something my mom had told me. That when she went, she didn't want me to be sad all the time about it, which is easier said then done. The last part is sort of to honor that. I had to end in an upbeat note. It's a reminder from my mom into my music to keep my head up, keep going, and to also bring joy to the world. Just as she did <3.   ",
       },
     ],
   },
