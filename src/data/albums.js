@@ -731,5 +731,43 @@ export const albums = [
     ],
   },
 
+  {
+  title: "We Are Not Chasing // We Are Attracting",
+  slug: "we-are-not-chasing-we-are-attracting",
+  coverImage: chasingAttractingCover,
+  artist: "R'To",
+  year: "2026",
+  type: "EP",
+
+  audioSrc: "/audio/we-are-not-chasing-we-are-attracting.mp3",
+
+  totalDuration: 311, // 5 min 11 sec
+
+  colors: {
+    primary: "",
+    secondary: "",
+    background: "",
+  },
+
+  story: "",
+
+  tracks: [
+    {
+      title: "We Are Not Chasing",
+      startTime: 0,
+      duration: 123, // 2:03
+      visual: "",
+      story: "",
+    },
+    {
+      title: "We Are Attracting",
+      startTime: 123,
+      duration: 188, // 3:08
+      visual: "",
+      story: "",
+    },
+  ],
+},
+
 ];
 
