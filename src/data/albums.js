@@ -14,6 +14,7 @@ import arielCover from "../assets/albums/ariels-domain.jpg";
 import sevenkbSidesCover from "../assets/albums/12-7k-b-sides.jpg";
 import hatenoCover from "../assets/albums/hateno-beach-blood-moon-rising.jpg";
 import momCover from "../assets/albums/mom-where-are-you-i-think-ive-got-the-zoomies.png"
+import chasingAttractingCover from "../assets/albums/chasingAttractingCover.png"
 
 
 export const albums = [
