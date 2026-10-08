@@ -699,7 +699,7 @@ export const albums = [
     ],
   },
 
-    // Zoomies Single
+  // Zoomies Single
   {
     title: "Mom Where Are You?! I Think I've Got The Zoomies",
     slug: "mom-where-are-you-i-think-ive-got-the-zoomies",
@@ -733,42 +733,42 @@ export const albums = [
   },
 
   {
-  title: "We Are Not Chasing // We Are Attracting",
-  slug: "we-are-not-chasing-we-are-attracting",
-  coverImage: chasingAttractingCover,
-  artist: "R'To",
-  year: "2026",
-  type: "EP",
+    title: "We Are Not Chasing // We Are Attracting",
+    slug: "we-are-not-chasing-we-are-attracting",
+    coverImage: chasingAttractingCover,
+    artist: "R'To",
+    year: "2026",
+    type: "EP",
 
-  audioSrc: "/audio/we-are-not-chasing-we-are-attracting.mp3",
+    audioSrc: "/audio/we-are-not-chasing-we-are-attracting.mp3",
 
-  totalDuration: 311, // 5 min 11 sec
+    totalDuration: 311, // 5 min 11 sec
 
-  colors: {
-    primary: "",
-    secondary: "",
-    background: "",
+    colors: {
+      primary: "#101819",
+      secondary: "#293B3D",
+      background: "#89918B",
+    },
+
+    story: "A two-sided ep, two moods, two songs.  ",
+
+    tracks: [
+      {
+        title: "We Are Not Chasing",
+        startTime: 0,
+        duration: 123, // 2:03
+        visual: "dream-blur",
+        story: "",
+      },
+      {
+        title: "We Are Attracting",
+        startTime: 123,
+        duration: 188, // 3:08
+        visual: "soft-glow",
+        story: "",
+      },
+    ],
   },
-
-  story: "",
-
-  tracks: [
-    {
-      title: "We Are Not Chasing",
-      startTime: 0,
-      duration: 123, // 2:03
-      visual: "",
-      story: "",
-    },
-    {
-      title: "We Are Attracting",
-      startTime: 123,
-      duration: 188, // 3:08
-      visual: "",
-      story: "",
-    },
-  ],
-},
 
 ];
 
