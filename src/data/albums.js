@@ -733,7 +733,7 @@ export const albums = [
   },
 
   {
-    title: "We Are Not Chasing // We Are Attracting",
+    title: "WE ARE NOT CHASING // WE ARE ATTRACTING",
     slug: "we-are-not-chasing-we-are-attracting",
     coverImage: chasingAttractingCover,
     artist: "R'To",
@@ -750,7 +750,7 @@ export const albums = [
       background: "#89918B",
     },
 
-    story: "A two-sided ep, two moods, two songs.  ",
+    story: "A two-sided ep, two moods, two songs. This is dedicated to the Late, Great Jason Arnot",
 
     tracks: [
       {
@@ -758,14 +758,14 @@ export const albums = [
         startTime: 0,
         duration: 123, // 2:03
         visual: "dream-blur",
-        story: "",
+        story: "This song came out of nowhere, it was before I heard the news of my buddy passing. He was a dude from Indianapolis. He was a fellow creative like myself. We were supposed to hang out together mid 2024 I think. He was a solid dude and he never seem like he was chasing anything. Hence the name of this song. Which is also a play on words (We, Arnot Jason). So kinda like saying, we as in us who remember him. So like we are him. If that makes sense lol. Anyway though, I had a drive to do something different with this project. I decided on leaning more of a dark indie type vibe for some random reason. Sorta.",
       },
       {
         title: "We Are Attracting",
         startTime: 123,
         duration: 188, // 3:08
         visual: "soft-glow",
-        story: "",
+        story: "So this is like the 2nd part, also dedicated to my buddy. Never chasing, always attracting. I went with that sorta phrasing for the two song ep name. I felt like that best fit him. Attracting was def something Jason did. I remember the first time meeting him in a setting where it was nothing like the people I kicked it with. I'm talking like there was moment the whole mf house broke out into SHOUT by The Isley Brothers and started to dance. It was the weirdest shit to me, lol. Like I'm from the hood, how tf did I end up here?!?! So later through that party, the song by Jay Z came out called Renegade with Eminem. I WAS THE ONLY DUDE THERE VIBING TO JAY Z. Right as he was coming up to the dial to change the song, he saw me and took his hand off. That's when I knew that's someone that was a good person. I was the only person out of place there and he made me feel like I wasn't. Thank you buddy, from one artist to another, I hope you're doing some dope shit you can't even begin to explain wherever you are. Rest easy friend. ",
       },
     ],
   },
