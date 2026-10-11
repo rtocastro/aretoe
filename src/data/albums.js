@@ -751,6 +751,8 @@ export const albums = [
       background: "#89918B",
     },
 
+    spotifyEmbed: "https://open.spotify.com/embed/album/3sgXrS1NxocNCNXyE0mjfd?utm_source=generatorj&theme0",
+
     story: "A two-sided ep, two moods, two songs. This is dedicated to the Late, Great Jason Michael Arnot",
 
     tracks: [
